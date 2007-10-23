@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [
+	 <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	 <!ENTITY a 'http://protege.stanford.edu/system#'>
+	 <!ENTITY StructuralOntol 'http://trac.talia.discovery-project.eu/wiki/StructuralOntology#'>
+	 <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+]>
+<rdf:RDF xmlns:rdf="&rdf;"
+	 xmlns:a="&a;"
+	 xmlns:StructuralOntol="&StructuralOntol;"
+	 xmlns:rdfs="&rdfs;">
+<rdfs:Class rdf:about="&StructuralOntol;BibliographicalEntry"
+	 rdfs:label="BibliographicalEntry">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Describing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;Bibliography"
+	 rdfs:label="Bibliography">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Ordering"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;Cataloguing"
+	 rdfs:label="Cataloguing">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Describing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;Collecianea"
+	 rdfs:label="Collecianea">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Ordering"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;Commentary"
+	 rdfs:label="Commentary">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Interpreting"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;Concordance"
+	 rdfs:label="Concordance">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Ordering"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;Contributor"
+	 rdfs:label="Contributor">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Source"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;CriticalEdition"
+	 rdfs:label="CriticalEdition">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Edition"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;Describing"
+	 rdfs:label="Describing">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Source"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;Description"
+	 rdfs:label="Description">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Describing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;DocumentTransmission"
+	 rdfs:label="DocumentTransmission">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Describing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;Editing"
+	 rdfs:label="Editing">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Source"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;Edition"
+	 rdfs:label="Edition">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Editing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;FacsimileEdition"
+	 rdfs:label="FacsimileEdition">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Edition"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;GenericEdition"
+	 rdfs:label="GenericEdition">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Edition"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;Interpreting"
+	 rdfs:label="Interpreting">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Source"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;Interview"
+	 rdfs:label="Interview">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Interpreting"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;IntroductoryLecture"
+	 rdfs:label="IntroductoryLecture">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Interpreting"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;Ordering"
+	 rdfs:label="Ordering">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Source"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;Path"
+	 rdfs:label="Path">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Ordering"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;Republication"
+	 rdfs:label="Republication">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Editing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;ResearchStudy"
+	 rdfs:label="ResearchStudy">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Interpreting"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;Review"
+	 rdfs:label="Review">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Interpreting"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;Source"
+	 rdfs:label="Source">
+	<a:_slot_constraints rdf:resource="&StructuralOntol;KB_250160_Instance_1"/>
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&StructuralOntol;Translation"
+	 rdfs:label="Translation">
+	<rdfs:subClassOf rdf:resource="&StructuralOntol;Interpreting"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&StructuralOntol;has_contributor"
+	 a:range="cls"
+	 rdfs:label="has_contributor">
+	<a:allowedParents rdf:resource="&StructuralOntol;Contributor"/>
+	<rdfs:domain rdf:resource="&StructuralOntol;Source"/>
+	<rdfs:range rdf:resource="&rdfs;Class"/>
+</rdf:Property>
+<rdf:Property rdf:about="&StructuralOntol;part_of"
+	 a:range="cls"
+	 rdfs:label="part_of">
+	<rdfs:domain rdf:resource="&StructuralOntol;Source"/>
+	<a:allowedParents rdf:resource="&StructuralOntol;Source"/>
+	<rdfs:range rdf:resource="&rdfs;Class"/>
+</rdf:Property>
+<rdf:Property rdf:about="&StructuralOntol;refers_to"
+	 a:range="cls"
+	 rdfs:label="refers_to">
+	<rdfs:domain rdf:resource="&StructuralOntol;Source"/>
+	<a:allowedParents rdf:resource="&StructuralOntol;Source"/>
+	<rdfs:range rdf:resource="&rdfs;Class"/>
+</rdf:Property>
+</rdf:RDF>
