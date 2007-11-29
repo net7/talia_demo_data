@@ -1,0 +1,421 @@
+namespaces:
+    dcns: "http://purl.org/dc/elements/1.1/"
+    foaf: "http://xmlns.com/foaf/0.1/"
+    talias: "http://trac.talia.discovery-project.eu/wiki/StructuralOntology#"
+    luccadom: "http://trac.talia.discovery-project.eu/wiki/LuccaOntology#"
+    dbpedia: "http://dbpedia.org/resource/"
+
+Lucca:  
+  type: "luccadom:city"
+  luccadom#saint: "St_Paulinus"
+  talias#shortname: "Lucca"
+  rdfs#label: Lucca
+  luccadom#citizen:
+    - ":Castruccio_Castracani"
+    - ":Giacomo_Puccini"
+    - ":Matteo_Civitali"
+    - ":Felice_Matteucci"
+  luccadom#coordinates:
+    - "43 51 00N,10 31 00E"
+  luccadom#has_building:
+    - ":Duomo_di_San_Martino"
+    - ":San_Michele_in_Foro"
+    - ":San_Frediano"
+    - ":Villa_Torrigiani"
+    - ":Palazzo_Ducale"
+    - ":Torre_Guinigi"
+    - ":Villa_Mansi"
+  luccadom#has_place:
+    - ":Piazza_Napoleone"
+    - ":Piazza_dell_Anfiteatro"
+    - ":Piazza_San_Martino"
+    - ":Piazza_San_Michele"
+    - ":Mura_di_Lucca"
+    - ":Serchio"
+  luccadom#has_institution:
+    - ":Museo_Nazionale_Guinigi"
+    - ":Museo_e_Pinacoteca_Nazionale_di_Lucca"
+  luccadom#in_epoch:
+    - ":preroman"
+    - ":roman"
+    - ":longobardian"
+    - ":xi-xiv_century"
+    - ":guinigi_era"
+    - ":contemporary"
+
+preroman:
+  type: "luccadom:epoch"
+  rdfs#label: "Epoca preromana"
+  talias#shortname: "Preromana"
+  luccadom#ends: "-180-01-01"
+  luccadom#next_epoch: ":roman"
+  
+roman:
+  type: "luccadom:epoch"
+  rdfs#label: "Epoca romana"
+  talias#shortname: "Romana"
+  luccadom#begins: "-180-01-01"
+  luccadom#next_epoch: ":longobardian"
+  
+longobardian:
+  type: "luccadom:epoch"
+  rdfs#label: "Periodo longobardo"
+  talias#shortname: "Longobardo"
+  luccadom#begins: ":vi_century"
+  luccadom#next_epoch: ":xi-xiv_century"
+  
+xi-xiv_century:
+  type: "luccadom:epoch"
+  rdfs#label: "XI-XIV secolo"
+  talias#shortname: "XI-XIV secolo"
+  luccadom#begins: "1000-01-01"
+  luccadom#next_epoch: "guinigi_era"
+  
+guinigi_era:
+  type: "luccadom:epoch"
+  rdfs#label: "Periodo Guinigi"
+  talias#shortname: "Guinigi"
+  luccadom#begins: "1400-11-21"
+  luccadom#next_epoch: ":contemporary"
+
+contemporary:
+  type: "luccadom:epoch"
+  rdfs#label: "Epoca contemporanea"
+  talias#shortname: "Contemporanea"
+  luccadom#begins: "1800-01-01"
+
+Catholizism:
+  rdfs#label: "Chiesa cattolica"
+  talias#shortname: "Cattolica"
+  
+artists:
+  type:
+    - "foaf:Group"
+  rdfs#label: "Artiste"
+  talias#shortname: "Artiste"
+
+
+
+Duomo_di_San_Martino:
+  type: 
+    - "luccadom:building"
+    - "luccadom:church"
+  rdfs#label:
+    - "Duomo di Lucca"
+    - "Duomo di San Martino"
+  talias#shortname: "Duomo"
+  luccadom#coordinates:
+    - "43 50 26.5N,10 30 21E"
+  luccadom#contains:
+    - ":Monumento_Carretto"
+    - ":Volto_Santo_di_Lucca"
+  luccadom#subject:
+    - ":Catholizism"
+  luccadom#close_to:
+    - ":Piazza_San_Martino"
+  luccadom#in_epoch: ":xi-xiv_century"
+      
+San_Frediano:
+  type:
+    - "luccadom:building"
+    - "luccadom:church"
+  rdfs#label:
+    - "Basilica di San Frediano"
+  talias#shortname: "San Frediano"
+  luccadom#in_epoch: ":xi-xiv_century"
+  luccadom#coordinates:
+    - "43 50 46.32N,10 30 17.28E"
+  luccadom#contains:
+    - ":decorations_san_frediano"
+  luccadom#subject:
+    - ":Catholizism"
+  luccadom#close_to:
+    - ":Piazza_dell_Anfiteatro"
+    
+San_Michele_in_Foro:
+  type:
+    - "luccadom:building"
+    - "luccadom:church"
+  rdfs#label:
+    - "Chiesa di San Michele in Foro"
+  talias#shortname: "San Michele"
+  luccadom#in_epoch:
+    - ":xi-xiv_century"
+  luccadom#coordinates:
+    - "43 50 35.46N,10 30 11.19E"
+  luccadom#subject:
+    - ":Catholizism"  
+
+Mura_di_Lucca:
+  type:
+    - "luccadom:place"
+  rdfs#label:
+    "Mura di Lucca"
+  talias#shortname: "Mura di Lucca"
+  luccadom#in_epoch:
+    - ":guinigi_era"
+  luccadom#coordinates:
+    - "43 50 24N,10 30 33E"
+    
+Villa_Torrigiani:
+  type:
+    - "luccadom:building"
+    - "luccadom:villa"
+  rdfs#label: "Villa Torrigiani"
+  talias#shortname: "Villa Torrigiani"
+  luccadom#in_epoch:
+    - ":guinigi_era"
+  luccadom#coordinates:
+    - "43 53 09N,10 36 30E"
+  
+Villa_Mansi:
+  type:
+    - "luccadom:building"
+    - "luccadom:villa"
+  rdfs#label: 
+    - "Villa Mansi"
+  talias#shortname: "Villa Mansi"
+  luccadom#in_epoch:
+    - ":guinigi_era"
+  talias#refers_to: ":Mansi_Family"
+    
+Palazzo_Ducale:
+  type:
+    - "luccadom:building"
+    - "luccadom:institution"
+  rdfs#label: "Palazzo Ducale"
+  talias#shortname: "Palazzo Ducale"
+  luccadom#coordinates:
+    - "43 50 29N,10 30 09E"
+  luccadom#close_to: ":Piazza_Napoleone"
+  luccadom#coordinates:
+    - "43 50 29N,10 30 07E"
+ 
+Piazza_Napoleone:
+  type:
+    - "luccadom#place"
+    - "luccadom#villa"
+  rdfs#label: "Piazza Napoleone"
+  talias#shortname: "Piazza Napoleone"
+  luccadom#coordinates:
+    - "43 50 29N,10 30 07E"
+    
+Piazza_dell_Anfiteatro:
+  type:
+    - "luccadom#place"
+  rdfs#label:
+    - "Piazza dell Anfiteatro"
+  talias#shortname: "Anfiteatro"
+  luccadom#in_epoch:
+    - ":roman"
+    - ":longobardian"
+  luccadom#coordinates:
+    - "43 50 43N,10 30 22E"
+    
+Torre_Guinigi:
+  type:
+    "luccadom:building"
+  rdfs#label:
+    - "Torre Guinigi"
+    - "Torre e Casa Guinigi"
+  talias#shortname: "Torre Guinigi"
+  luccadom#in_epoch:
+    - ":guinigi_era"
+  talias#refers_to: - ":Guinigi_Family"
+  luccadom#coordinates:
+    - "43 50 37.70N,10 30 25.19E"
+  talias#refers_to: - ":Guinigi_family"
+    
+Guinigi_family:
+  type:
+    - "foaf:Group"
+  rdfs#label:
+    - "Famiglia Guinigi"
+  talias#shortname: "I Guinigi"
+
+Giacomo_Puccini:
+  type:
+    - "foaf:Person"
+  foaf#name: "Giacomo Puccini"
+  foaf#member: ":artists"
+  rdfs#label: "Giacomo Puccini"
+  talias#shortname: "Giacomo Puccini"
+  luccadom#birth: "1858-12-22"
+  luccadom#death: "1924-11-29"
+  luccadom#in_epoch: ":contemporary"
+  luccadom#birthplace: ":Lucca"
+  luccadom#works:
+    - ":La_Boheme"
+    - ":Madame_Butterfly"
+    - ":Tosca"
+
+Castruccio_Castracani:
+  type:
+    - "foaf:Person"
+  foaf#name: "Castruccio Castracani"
+  rdfs#label: "Castruccio Castracani"
+  talias#shortname: "Castruccio Castracani"
+  luccadom#birth: "1281-01-01"
+  luccadom#death: "1328-09-03"
+  luccadom#birthplace: ":Lucca"
+    
+Matteo_Civitali:
+  type:
+    - "foaf:Person"
+  foaf#name: "Matteo Civitali"
+  rdfs#label: "Matteo Civitali"
+  talias#shortname: "Matteo Civitali"
+  foaf#member: ":artists"
+  luccadom#birth: "1436-01-01"
+  luccadom#death: "1502-01-01"
+  luccadom#in_epoch: ":guinigi_era"
+  luccadom#works:
+    - ":Tempietto_Volto_Santo"
+    - ":Mausoleo_Noveto"
+  
+Felice_Matteucci:
+  type:
+    - "foaf:Person"
+  foaf#name: "Felice Matteucci"
+  rdfs#label: "Felice Matteucci"
+  talias#shortname: "Felice Matteucci"
+  luccadom#birth: "1808-02-12"
+  luccadom#death: "1887-09-13"
+  luccadom#in_epoch: ":contemporary"
+    
+Taddeucci_Family:
+  type:
+    - "foaf:Group"
+  talias#refers_to: ":Taddeucci_Shop"
+  foaf#name: "Famiglia Taddeucci"
+  rdfs#label: "Famiglia Taddeucci"
+  talias#shortname: "I Taddeucci"
+
+Mansi_Family:
+  type:
+    - "foaf:Group"
+  foaf#name: "Famiglia Mansi"
+  rdfs#label: "Famiglia Mansi"
+  talias#shortname: "I Mansi"
+
+Taddeucci_Shop:
+  type:
+    - "luccadom:place"
+  talias#refers_to: ":Buccellato"
+  rdfs#label: "Pasticceria Taddeucci"
+  
+  
+Buccellato:
+  type:
+    - "luccadom:speciality"
+  rdfs#label: "Buccellato"
+
+Museo_e_Pinacoteca_Nazionale_di_Lucca:
+  type:
+    - "luccadom:place"
+    - "luccadom:institution"
+    - "luccadom:museum"
+    - "luccadom:building"
+  rdfs#label: 
+    - "Museo e Pinacoteca Nazionale di Lucca"
+    - "Palazzo Mansi"
+  talias#shortname: "Pinacoteca Nazionale"
+  talias#refers_to: - "Mansi_Family"
+  luccadom#coordinates:
+    - "43 50 38N,10 29 57E"
+  luccadom#in_epoch: ":longobardian"
+  luccadom#contains:
+    - "Mansi_Tree"
+    - "David_Goliath"
+    - "John_Baptist"
+
+Museo_Nazionale_Guinigi:
+  type:
+    - "luccadom:place"
+    - "luccadom:institution"
+    - "luccadom:museum"
+  rdfs#label: 
+    - "Museo Nazional Guinigi"
+  talias#shortname: "Museo Guinigi"
+  talias#refers_to: - ":Guinigi_family"
+  luccadom#coordinates: "43 50 43N,10 30 38E"
+
+Serchio:
+  type:
+    - "luccadom:place"
+    - "luccadom:river"
+  rdfs#label: "Serchio"
+  talias#shortname: "Serchio"
+  luccadom#coordinates: "43 51 10N,10 29 42E"
+  
+Volto_Santo_di_Lucca:
+  type:
+    - "luccadom:artwork"
+  rdfs#label: "Volto Santo di Lucca"
+  talias#shortname: "Volto Santo"
+  luccadom#subject:
+    - ":Catholizism"
+  
+Monumento_Carretto:
+  type:
+    - "luccadom:artwork"
+  rdfs#label: 
+    - "Monumento funebre a Illaria Carretto"
+  talias#shortname: "Monumento a I. Carretto"
+  luccadom#subject:
+    - ":Catholizism"
+
+decorations_san_frediano:
+  type:
+    - "luccadom:artwork"
+  rdfs#label: "Decorazioni di San Frediano"
+  talias#shortname: "Decorazioni di S. Frediano"
+  luccadom#subject: - ":Catholizism"
+
+La_Boheme:
+  type:
+    - "luccadom:artwork"
+  rdfs#label:
+    - "La Bohème"
+  talias#shortname: "La Bohème"
+
+Tosca:
+  type:
+    - "luccadom:artwork"
+  rdfs#label: - "Tosca"
+
+Madame_Butterfly:
+  type:
+    - "luccadom:artwork"
+  rdfs#label: - "Madama Butterfly"
+  talias#shortname: - "Madama Butterfly"
+
+Tempietto_Volto_Santo:
+  type:
+    - "luccadom:artwork"
+  luccadom#subject: ":Catholizism"
+  luccadom#contains: ":Volto_Santo_di_Lucca"
+  rdfs#label: "Tempietto per il Volto Santo di Luca"
+  talias#shortname: "Tempietto Volto Santo"
+
+Mausoleo_di_Noveto:
+  type: "luccadom:artwork"
+  luccadom#subject: ":Catholizism"
+  talias#shortname: "Mausoleo di Noveto"
+
+Mansi_Tree:
+  type: "luccadom:artwork"
+  rdfs#label: "Albero genealogico della Famiglia Mansi"
+  talias#refers_to: ":Mansi_Family"
+  talias#shortname: "Albero dei Mansi"
+
+David_Goliath:
+  type: "luccadom:artwork"
+  rdfs#label: "Davide e Golia"
+  talias#shortname: "Davide e Golia"
+
+John_Baptist:
+  type: "luccadom:artwork"
+  rdfs#label: "San Giovanni Battista"
+  talias#shortname: "San Giovanni Battista"
+
