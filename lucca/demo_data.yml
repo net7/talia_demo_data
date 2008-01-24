@@ -45,54 +45,54 @@ Lucca:
 
 preroman:
   type: "luccadom:epoch"
-  rdfs#label: "Epoca preromana"
-  talias#shortname: "Preromana"
+  rdfs#label: "Pre-Roman era"
+  talias#shortname: "Pre-Roman"
   luccadom#ends: "-180-01-01"
   luccadom#next_epoch: ":roman"
   
 roman:
   type: "luccadom:epoch"
-  rdfs#label: "Epoca romana"
-  talias#shortname: "Romana"
+  rdfs#label: "Roman era"
+  talias#shortname: "Roman"
   luccadom#begins: "-180-01-01"
   luccadom#next_epoch: ":longobardian"
   
 longobardian:
   type: "luccadom:epoch"
-  rdfs#label: "Periodo longobardo"
-  talias#shortname: "Longobardo"
+  rdfs#label: "Lombardian era"
+  talias#shortname: "Lombardian"
   luccadom#begins: ":vi_century"
   luccadom#next_epoch: ":xi-xiv_century"
   
-xi-xiv_century:
+xi_xiv_century:
   type: "luccadom:epoch"
-  rdfs#label: "XI-XIV secolo"
-  talias#shortname: "XI-XIV secolo"
+  rdfs#label: "XI-XIV century"
+  talias#shortname: "XI-XIV century"
   luccadom#begins: "1000-01-01"
   luccadom#next_epoch: "guinigi_era"
   
 guinigi_era:
   type: "luccadom:epoch"
-  rdfs#label: "Periodo Guinigi"
+  rdfs#label: "Guinigi period"
   talias#shortname: "Guinigi"
   luccadom#begins: "1400-11-21"
   luccadom#next_epoch: ":contemporary"
 
 contemporary:
   type: "luccadom:epoch"
-  rdfs#label: "Epoca contemporanea"
-  talias#shortname: "Contemporanea"
+  rdfs#label: "Contemporary era"
+  talias#shortname: "Contemporary"
   luccadom#begins: "1800-01-01"
 
 Catholizism:
-  rdfs#label: "Chiesa cattolica"
-  talias#shortname: "Cattolica"
+  rdfs#label: "Catholic Church"
+  talias#shortname: "Catholic"
   
 artists:
   type:
     - "foaf:Group"
-  rdfs#label: "Artiste"
-  talias#shortname: "Artiste"
+  rdfs#label: "Artists"
+  talias#shortname: "Artists"
 
 
 
@@ -101,9 +101,9 @@ Duomo_di_San_Martino:
     - "luccadom:building"
     - "luccadom:church"
   rdfs#label:
-    - "Duomo di Lucca"
-    - "Duomo di San Martino"
-  talias#shortname: "Duomo"
+    - "Cathedral of Lucca"
+    - "Cathedral of St. Martin"
+  talias#shortname: "Cathedral"
   luccadom#coordinates:
     - "43 50 26.5N,10 30 21E"
   luccadom#contains:
@@ -137,7 +137,7 @@ San_Michele_in_Foro:
     - "luccadom:building"
     - "luccadom:church"
   rdfs#label:
-    - "Chiesa di San Michele in Foro"
+    - "San Michele in Foro (Church)"
   talias#shortname: "San Michele"
   luccadom#in_epoch:
     - ":xi-xiv_century"
@@ -150,8 +150,8 @@ Mura_di_Lucca:
   type:
     - "luccadom:place"
   rdfs#label:
-    "Mura di Lucca"
-  talias#shortname: "Mura di Lucca"
+    - "Lucca City Walls"
+  talias#shortname: "City Walls"
   luccadom#in_epoch:
     - ":guinigi_era"
   luccadom#coordinates:
@@ -184,7 +184,7 @@ Palazzo_Ducale:
     - "luccadom:building"
     - "luccadom:institution"
   rdfs#label: "Palazzo Ducale"
-  talias#shortname: "Palazzo Ducale"
+  talias#shortname: "Palace"
   luccadom#coordinates:
     - "43 50 29N,10 30 09E"
   luccadom#close_to: ":Piazza_Napoleone"
@@ -193,8 +193,8 @@ Palazzo_Ducale:
  
 Piazza_Napoleone:
   type:
-    - "luccadom#place"
-    - "luccadom#villa"
+    - "luccadom:place"
+    - "luccadom:villa"
   rdfs#label: "Piazza Napoleone"
   talias#shortname: "Piazza Napoleone"
   luccadom#coordinates:
@@ -202,7 +202,7 @@ Piazza_Napoleone:
     
 Piazza_dell_Anfiteatro:
   type:
-    - "luccadom#place"
+    - "luccadom:place"
   rdfs#label:
     - "Piazza dell Anfiteatro"
   talias#shortname: "Anfiteatro"
@@ -216,9 +216,9 @@ Torre_Guinigi:
   type:
     "luccadom:building"
   rdfs#label:
-    - "Torre Guinigi"
-    - "Torre e Casa Guinigi"
-  talias#shortname: "Torre Guinigi"
+    - "Guinigi Tower"
+    - "Guinigi Tower and House"
+  talias#shortname: "Guinigi Tower"
   luccadom#in_epoch:
     - ":guinigi_era"
   talias#refers_to: - ":Guinigi_Family"
@@ -230,8 +230,8 @@ Guinigi_family:
   type:
     - "foaf:Group"
   rdfs#label:
-    - "Famiglia Guinigi"
-  talias#shortname: "I Guinigi"
+    - "Guinigi Family"
+  talias#shortname: "Guinigi"
 
 Giacomo_Puccini:
   type:
@@ -287,22 +287,23 @@ Taddeucci_Family:
   type:
     - "foaf:Group"
   talias#refers_to: ":Taddeucci_Shop"
-  foaf#name: "Famiglia Taddeucci"
-  rdfs#label: "Famiglia Taddeucci"
-  talias#shortname: "I Taddeucci"
+  foaf#name: "Taddeucci Family"
+  rdfs#label: "Taddeucci Family"
+  talias#shortname: "Taddeucci"
 
 Mansi_Family:
   type:
     - "foaf:Group"
-  foaf#name: "Famiglia Mansi"
-  rdfs#label: "Famiglia Mansi"
-  talias#shortname: "I Mansi"
+  foaf#name: "Mansi Family"
+  rdfs#label: "Mansi Family"
+  talias#shortname: "Mansi"
 
 Taddeucci_Shop:
   type:
     - "luccadom:place"
   talias#refers_to: ":Buccellato"
   rdfs#label: "Pasticceria Taddeucci"
+  rdfs#shortname: "Taddeucci Shop"
   
   
 Buccellato:
@@ -317,6 +318,7 @@ Museo_e_Pinacoteca_Nazionale_di_Lucca:
     - "luccadom:museum"
     - "luccadom:building"
   rdfs#label: 
+    - "National Museum Palazzo Mansi"
     - "Museo e Pinacoteca Nazionale di Lucca"
     - "Palazzo Mansi"
   talias#shortname: "Pinacoteca Nazionale"
@@ -335,8 +337,9 @@ Museo_Nazionale_Guinigi:
     - "luccadom:institution"
     - "luccadom:museum"
   rdfs#label: 
-    - "Museo Nazional Guinigi"
-  talias#shortname: "Museo Guinigi"
+    - "Guinigi National Museum"
+    - "Museo Nazionale Guinigi"
+  talias#shortname: "Guinigi Museum"
   talias#refers_to: - ":Guinigi_family"
   luccadom#coordinates: "43 50 43N,10 30 38E"
 
@@ -351,7 +354,9 @@ Serchio:
 Volto_Santo_di_Lucca:
   type:
     - "luccadom:artwork"
-  rdfs#label: "Volto Santo di Lucca"
+  rdfs#label: 
+    - "Holy Face of Lucca"
+    - "Volto Santo di Lucca"
   talias#shortname: "Volto Santo"
   luccadom#subject:
     - ":Catholizism"
@@ -360,16 +365,16 @@ Monumento_Carretto:
   type:
     - "luccadom:artwork"
   rdfs#label: 
-    - "Monumento funebre a Illaria Carretto"
-  talias#shortname: "Monumento a I. Carretto"
+    - "Tomb of Illaria Carretto"
+  talias#shortname: "Tomb of I. Carretto"
   luccadom#subject:
     - ":Catholizism"
 
 decorations_san_frediano:
   type:
     - "luccadom:artwork"
-  rdfs#label: "Decorazioni di San Frediano"
-  talias#shortname: "Decorazioni di S. Frediano"
+  rdfs#label: "Decorations of San Frediano"
+  talias#shortname: "Decorations S. Frediano"
   luccadom#subject: - ":Catholizism"
 
 La_Boheme:
@@ -395,27 +400,40 @@ Tempietto_Volto_Santo:
     - "luccadom:artwork"
   luccadom#subject: ":Catholizism"
   luccadom#contains: ":Volto_Santo_di_Lucca"
-  rdfs#label: "Tempietto per il Volto Santo di Luca"
-  talias#shortname: "Tempietto Volto Santo"
+  rdfs#label: 
+    - "Temple of the Volto Santo di Lucca"
+    - "Chapel for the Holy Face of Lucca"
+  talias#shortname: "Chapel Volto Santo"
 
 Mausoleo_di_Noveto:
   type: "luccadom:artwork"
   luccadom#subject: ":Catholizism"
-  talias#shortname: "Mausoleo di Noveto"
+  talias#shortname: "Mausoleum of Noveto"
 
 Mansi_Tree:
   type: "luccadom:artwork"
-  rdfs#label: "Albero genealogico della Famiglia Mansi"
+  rdfs#label: "Genealogical Tree of the Famiglia Mansi"
   talias#refers_to: ":Mansi_Family"
-  talias#shortname: "Albero dei Mansi"
+  talias#shortname: "Mansi Family Tree"
 
 David_Goliath:
   type: "luccadom:artwork"
-  rdfs#label: "Davide e Golia"
-  talias#shortname: "Davide e Golia"
+  rdfs#label: "Davide and Golia"
+  talias#shortname: "Davide and Golia"
 
 John_Baptist:
   type: "luccadom:artwork"
-  rdfs#label: "San Giovanni Battista"
-  talias#shortname: "San Giovanni Battista"
+  rdfs#label: "St. John the Baptist"
+  talias#shortname: "St. John Baptist"
 
+Piazza_San_Martino:
+    type: 
+        - "luccadom:place"
+    rdfs#label: "Piazza San Martino"
+    luccadom#shortname: "Piazza San Martino"
+
+Piazza_San_Michele:
+    type:
+        - "luccadom:place"
+    rdfs#label: "Piazza San Michele"
+    luccadom#shortname: "Piazza San Michele"

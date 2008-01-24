@@ -1,0 +1,133 @@
+; Tue Jan 22 18:15:57 CET 2008
+; 
+;+ (version "3.3")
+;+ (build "Build 409")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(multislot has_contributor
+		(type INSTANCE)
+;+		(allowed-classes)
+		(create-accessor read-write))
+	(multislot refers_to
+		(type INSTANCE)
+;+		(allowed-classes)
+		(create-accessor read-write))
+	(multislot part_of
+		(type INSTANCE)
+;+		(allowed-classes)
+		(create-accessor read-write)))
+
+(defclass Source
+	(is-a USER)
+	(role concrete)
+	(multislot refers_to
+		(type INSTANCE)
+;+		(allowed-classes)
+		(create-accessor read-write))
+	(multislot part_of
+		(type INSTANCE)
+;+		(allowed-classes)
+		(create-accessor read-write))
+	(multislot has_contributor
+		(type INSTANCE)
+;+		(allowed-classes)
+		(create-accessor read-write)))
+
+(defclass Contributor
+	(is-a Source)
+	(role concrete))
+
+(defclass Describing
+	(is-a Source)
+	(role concrete))
+
+(defclass BibliographicalEntry
+	(is-a Describing)
+	(role concrete))
+
+(defclass Cataloguing
+	(is-a Describing)
+	(role concrete))
+
+(defclass Description
+	(is-a Describing)
+	(role concrete))
+
+(defclass DocumentTransmission
+	(is-a Describing)
+	(role concrete))
+
+(defclass Editing
+	(is-a Source)
+	(role concrete))
+
+(defclass Edition
+	(is-a Editing)
+	(role concrete))
+
+(defclass CriticalEdition
+	(is-a Edition)
+	(role concrete))
+
+(defclass FacsimileEdition
+	(is-a Edition)
+	(role concrete))
+
+(defclass GenericEdition
+	(is-a Edition)
+	(role concrete))
+
+(defclass Republication
+	(is-a Editing)
+	(role concrete))
+
+(defclass Interpreting
+	(is-a Source)
+	(role concrete))
+
+(defclass Commentary
+	(is-a Interpreting)
+	(role concrete))
+
+(defclass Interview
+	(is-a Interpreting)
+	(role concrete))
+
+(defclass IntroductoryLecture
+	(is-a Interpreting)
+	(role concrete))
+
+(defclass ResearchStudy
+	(is-a Interpreting)
+	(role concrete))
+
+(defclass Review
+	(is-a Interpreting)
+	(role concrete))
+
+(defclass Translation
+	(is-a Interpreting)
+	(role concrete))
+
+(defclass Ordering
+	(is-a Source)
+	(role concrete))
+
+(defclass Bibliography
+	(is-a Ordering)
+	(role concrete))
+
+(defclass Collecianea
+	(is-a Ordering)
+	(role concrete))
+
+(defclass Concordance
+	(is-a Ordering)
+	(role concrete))
+
+(defclass Path
+	(is-a Ordering)
+	(role concrete))

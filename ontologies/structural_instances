@@ -1,0 +1,159 @@
+; Tue Jan 22 18:15:57 CET 2008
+; 
+;+ (version "3.3")
+;+ (build "Build 409")
+
+([%3A] of  owl%3AOntology
+
+	(rdf%3Atype owl%3AOntology)
+	(%3AOWL-ONTOLOGY-PREFIXES
+		"j.0:http://protege.stanford.edu/plugins/owl/protege#"
+		"rdf:http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		"xsd:http://www.w3.org/2001/XMLSchema#"
+		"rdfs:http://www.w3.org/2000/01/rdf-schema#"
+		"owl:http://www.w3.org/2002/07/owl#"
+		":http://www.owl-ontologies.com/unnamed.owl#"))
+
+([BibliographicalEntry] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Describing]))
+
+([Bibliography] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Ordering]))
+
+([Cataloguing] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Describing]))
+
+([Collecianea] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Ordering]))
+
+([Commentary] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Interpreting]))
+
+([Concordance] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Ordering]))
+
+([Contributor] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Source]))
+
+([CriticalEdition] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Edition]))
+
+([Describing] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Source]))
+
+([Description] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Describing]))
+
+([DocumentTransmission] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Describing]))
+
+([Editing] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Source]))
+
+([Edition] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Editing]))
+
+([FacsimileEdition] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Edition]))
+
+([GenericEdition] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Edition]))
+
+([has_contributor] of  owl%3AObjectProperty
+
+	(rdf%3Atype owl%3AObjectProperty)
+	(rdfs%3Adomain [Source]))
+
+([Interpreting] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Source]))
+
+([Interview] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Interpreting]))
+
+([IntroductoryLecture] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Interpreting]))
+
+([KB_250160_Instance_1] of  %3APAL-CONSTRAINT
+
+	(rdf%3Atype %3APAL-CONSTRAINT))
+
+([Ordering] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Source]))
+
+([part_of] of  owl%3AObjectProperty
+
+	(rdf%3Atype owl%3AObjectProperty)
+	(rdfs%3Adomain [Source]))
+
+([Path] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Ordering]))
+
+([refers_to] of  owl%3AObjectProperty
+
+	(rdf%3Atype owl%3AObjectProperty)
+	(rdfs%3Adomain [Source]))
+
+([Republication] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Editing]))
+
+([ResearchStudy] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Interpreting]))
+
+([Review] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Interpreting]))
+
+([Source] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(%3ASLOT-CONSTRAINTS [KB_250160_Instance_1]))
+
+([Translation] of  owl%3AClass
+
+	(rdf%3Atype owl%3AClass)
+	(rdfs%3AsubClassOf [Interpreting]))

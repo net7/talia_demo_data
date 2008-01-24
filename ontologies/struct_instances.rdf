@@ -1,0 +1,11 @@
+; Tue Jan 22 18:18:00 CET 2008
+; 
+;+ (version "3.3")
+;+ (build "Build 409")
+
+([KB_250160_Instance_1] of  %3APAL-CONSTRAINT
+)
+
+([Source] of  %3ASTANDARD-CLASS
+
+	(%3ASLOT-CONSTRAINTS [KB_250160_Instance_1]))

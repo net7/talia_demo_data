@@ -1,4 +1,4 @@
-; Sun Oct 14 00:03:56 CEST 2007
+; Tue Jan 22 18:29:32 CET 2008
 ; 
 ;+ (version "3.3")
 ;+ (build "Build 409")
@@ -20,13 +20,14 @@
 ([BROWSER_SLOT_NAMES] of  Property_List
 
 	(properties
-		[structural_ProjectKB_Instance_109]
-		[structural_ProjectKB_Instance_110]
-		[structural_ProjectKB_Instance_111]))
+		[structural_ProjectKB_Instance_10061]
+		[structural_ProjectKB_Instance_10062]
+		[structural_ProjectKB_Instance_10063]
+		[structural_ProjectKB_Instance_10064]))
 
 ([CLSES_TAB] of  Widget
 
-	(is_hidden FALSE)
+	(is_hidden TRUE)
 	(widget_class_name "edu.stanford.smi.protege.widget.ClsesTab"))
 
 ([CREATION_TIMESTAMP_WIDGET] of  Widget
@@ -63,13 +64,22 @@
 
 ([INSTANCES_TAB] of  Widget
 
-	(is_hidden FALSE)
+	(is_hidden TRUE)
 	(widget_class_name "edu.stanford.smi.protege.widget.InstancesTab"))
+
+([KB_102274_Instance_0] of  String
+
+	(name "renaming_namespaces"))
+
+([KB_102274_Instance_1] of  String
+
+	(name "namespaces")
+	(string_value "rdfs http://www.w3.org/2000/01/rdf-schema# rdf http://www.w3.org/1999/02/22-rdf-syntax-ns# "))
 
 ([KB_543513_Instance_0] of  String
 
 	(name "factory_class_name")
-	(string_value "edu.stanford.smi.protegex.storage.rdf.configurable.RDFCBackend"))
+	(string_value "edu.stanford.smi.protegex.owl.jena.JenaKnowledgeBaseFactory"))
 
 ([KB_543513_Instance_1] of  Options
 
@@ -134,7 +144,7 @@
 
 ([KB_543513_Instance_14] of  Widget
 
-	(is_hidden TRUE)
+	(is_hidden FALSE)
 	(property_list [KB_543513_Instance_15])
 	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadatatab.OWLMetadataTab"))
 
@@ -194,7 +204,7 @@
 
 ([KB_543513_Instance_26] of  Widget
 
-	(is_hidden FALSE)
+	(is_hidden TRUE)
 	(property_list [KB_543513_Instance_27])
 	(widget_class_name "edu.stanford.smi.protegex.fctab.FacetConstraintsTab"))
 
@@ -284,7 +294,7 @@
 
 ([KB_543513_Instance_44] of  Widget
 
-	(is_hidden FALSE)
+	(is_hidden TRUE)
 	(property_list [KB_543513_Instance_45])
 	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.InstanceTreeTab"))
 
@@ -350,7 +360,7 @@
 
 ([KB_543513_Instance_58] of  Widget
 
-	(is_hidden TRUE)
+	(is_hidden FALSE)
 	(property_list [KB_543513_Instance_59])
 	(widget_class_name "edu.stanford.smi.protegex.owl.ui.cls.OWLClassesTab"))
 
@@ -413,7 +423,7 @@
 
 ([KB_543513_Instance_70] of  Widget
 
-	(is_hidden TRUE)
+	(is_hidden FALSE)
 	(property_list [KB_543513_Instance_71])
 	(widget_class_name "uk.ac.man.ac.mig.coode.individuals.ui.OWLDLIndividualsTab"))
 
@@ -536,7 +546,7 @@
 	(label "Description")
 	(name ":PAL-DESCRIPTION")
 	(property_list [KB_543513_Instance_101])
-	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.SingleLiteralAreaWidget")
 	(width 250)
 	(x 275)
 	(y 0))
@@ -559,7 +569,7 @@
 	(label "Name")
 	(name ":PAL-NAME")
 	(property_list [KB_543513_Instance_100])
-	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.SingleLiteralWidget")
 	(width 275)
 	(x 0)
 	(y 0))
@@ -604,23 +614,79 @@
 		[STANDARD_SLOT_FORM_WIDGET]
 		[STANDARD_CLASS_FORM_WIDGET]
 		[STANDARD_FACET_FORM_WIDGET]
+		[structural_ProjectKB_Instance_10011]
 		[INSTANCE_ANNOTATION_FORM_WIDGET]
 		[PAL_FORM_WIDGET])
-	(default_cls_metaclass ":STANDARD-CLASS")
+	(default_cls_metaclass "owl:Class")
 	(default_facet_metaclass ":STANDARD-FACET")
-	(default_instance_widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
-	(default_slot_metaclass ":STANDARD-SLOT")
+	(default_instance_widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.OWLFormWidget")
+	(default_slot_metaclass "owl:DatatypeProperty")
+	(hidden_classes
+		"rdf:XMLLiteral"
+		"xsd:anyURI"
+		"xsd:gYear"
+		"rdf:Seq"
+		"xsd:negativeInteger"
+		"xsd:hexBinary"
+		"xsd:NOTATION"
+		"rdf:Bag"
+		"protege:classificationStatus"
+		"xsd:integer"
+		"xsd:unsignedShort"
+		"protege:inferredSuperclassOf"
+		"xsd:base64Binary"
+		"owl:Ontology"
+		"xsd:gMonthDay"
+		"xsd:NMTOKEN"
+		"xsd:QName"
+		"xsd:unsignedInt"
+		"xsd:long"
+		"owl:FunctionalProperty"
+		"xsd:language"
+		"protege:ExternalResource"
+		"xsd:positiveInteger"
+		"owl:DeprecatedClass"
+		"xsd:duration"
+		"rdf:Alt"
+		"owl:DeprecatedProperty"
+		"owl:AnnotationProperty"
+		"xsd:unsignedLong"
+		"xsd:unsignedByte"
+		"protege:inferredSubclassOf"
+		"xsd:short"
+		"xsd:double"
+		"xsd:decimal"
+		"owl:SymmetricProperty"
+		"xsd:Name"
+		"xsd:byte"
+		"owl:AllDifferent"
+		"owl:InverseFunctionalProperty"
+		"xsd:nonNegativeInteger"
+		"xsd:anySimpleType"
+		"owl:disjointWith"
+		"xsd:ID"
+		"xsd:gDay"
+		"xsd:gYearMonth"
+		"owl:distinctMembers"
+		"xsd:NCName"
+		"xsd:nonPositiveInteger"
+		"rdfs:Datatype"
+		"xsd:token"
+		"owl:TransitiveProperty"
+		"xsd:ENTITY"
+		"xsd:IDREF"
+		"xsd:normalizedString"
+		"xsd:gMonth")
 	(journaling_enabled FALSE)
 	(next_frame_number 0)
 	(options [KB_543513_Instance_1])
 	(property_map [structural_ProjectKB_Instance_112])
 	(sources [SOURCES])
 	(tabs
-		[CLSES_TAB]
-		[SLOTS_TAB]
+		[KB_543513_Instance_58]
+		[KB_543513_Instance_14]
+		[KB_543513_Instance_70]
 		[FORMS_TAB]
-		[INSTANCES_TAB]
-		[QUERIES_TAB]
 		[KB_543513_Instance_60]
 		[KB_543513_Instance_18]
 		[KB_543513_Instance_46]
@@ -634,39 +700,40 @@
 		[KB_543513_Instance_34]
 		[KB_543513_Instance_42]
 		[KB_543513_Instance_4]
-		[KB_543513_Instance_70]
 		[KB_543513_Instance_20]
+		[KB_543513_Instance_54]
+		[KB_543513_Instance_36]
+		[KB_543513_Instance_72]
 		[KB_543513_Instance_40]
 		[KB_543513_Instance_32]
 		[KB_543513_Instance_38]
 		[KB_543513_Instance_6]
 		[KB_543513_Instance_16]
+		[QUERIES_TAB]
 		[KB_543513_Instance_10]
+		[KB_543513_Instance_24]
 		[KB_543513_Instance_2]
 		[KB_543513_Instance_66]
 		[KB_543513_Instance_68]
 		[KB_543513_Instance_30]
 		[KB_543513_Instance_28]
 		[KB_543513_Instance_64]
+		[CLSES_TAB]
 		[KB_543513_Instance_22]
-		[KB_543513_Instance_58]
-		[KB_543513_Instance_54]
-		[KB_543513_Instance_14]
-		[KB_543513_Instance_36]
-		[KB_543513_Instance_72]
+		[INSTANCES_TAB]
 		[KB_543513_Instance_62]
-		[KB_543513_Instance_24]
+		[SLOTS_TAB]
 		[KB_543513_Instance_12]))
 
 ([QUERIES_TAB] of  Widget
 
-	(is_hidden FALSE)
+	(is_hidden TRUE)
 	(property_list [KB_543513_Instance_95])
 	(widget_class_name "edu.stanford.smi.protegex.queries_tab.QueriesTab"))
 
 ([SLOTS_TAB] of  Widget
 
-	(is_hidden FALSE)
+	(is_hidden TRUE)
 	(widget_class_name "edu.stanford.smi.protege.widget.SlotsTab"))
 
 ([SOURCES] of  Property_List
@@ -676,7 +743,14 @@
 		[KB_543513_Instance_104]
 		[KB_543513_Instance_105]
 		[KB_543513_Instance_106]
-		[KB_543513_Instance_107]))
+		[KB_543513_Instance_107]
+		[KB_102274_Instance_0]
+		[KB_102274_Instance_1]
+		[structural_ProjectKB_Instance_2]
+		[structural_ProjectKB_Instance_3]
+		[structural_ProjectKB_Instance_0]
+		[structural_ProjectKB_Instance_1]
+		[structural_ProjectKB_Instance_20047]))
 
 ([STANDARD_CLASS_CONSTRAINTS_WIDGET] of  Widget
 
@@ -768,7 +842,18 @@
 		[STANDARD_CLASS_ROLE_WIDGET]
 		[STANDARD_CLASS_DIRECT_TYPE_WIDGET]
 		[STANDARD_CLASS_TEMPLATE_SLOTS_WIDGET]
-		[LAYOUT_PROPERTIES]))
+		[LAYOUT_PROPERTIES]
+		[structural_ProjectKB_Instance_10027]
+		[structural_ProjectKB_Instance_10031]
+		[structural_ProjectKB_Instance_10033]
+		[structural_ProjectKB_Instance_10035]
+		[structural_ProjectKB_Instance_10037]
+		[structural_ProjectKB_Instance_10039]
+		[structural_ProjectKB_Instance_10043]
+		[structural_ProjectKB_Instance_10047]
+		[structural_ProjectKB_Instance_10051]
+		[structural_ProjectKB_Instance_10055]
+		[structural_ProjectKB_Instance_10057]))
 
 ([STANDARD_FACET_ASSOCIATED_SLOT_WIDGET] of  Widget
 
@@ -982,44 +1067,347 @@
 		[STANDARD_SLOT_TYPE_WIDGET]
 		[KB_543513_Instance_83]))
 
-([structural_ProjectKB_Instance_108] of  String
+([structural_ProjectKB_Instance_0] of  String
 
-	(name "SearchTab_Query"))
+	(name "owl_file_language")
+	(string_value "RDF/XML-ABBREV"))
 
-([structural_ProjectKB_Instance_109] of  String
+([structural_ProjectKB_Instance_1] of  String
+
+	(name "owl_file_name")
+	(string_value "structural.owl"))
+
+([structural_ProjectKB_Instance_10011] of  Widget
+
+	(is_hidden FALSE)
+	(name "owl:Class")
+	(property_list [structural_ProjectKB_Instance_10012])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.OWLFormWidget"))
+
+([structural_ProjectKB_Instance_10012] of  Property_List
+
+	(properties
+		[structural_ProjectKB_Instance_10013]
+		[structural_ProjectKB_Instance_10014]
+		[structural_ProjectKB_Instance_10016]))
+
+([structural_ProjectKB_Instance_10013] of  Property_List
+
+	(name "layout properties"))
+
+([structural_ProjectKB_Instance_10014] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "rdfs:subClassOf")
+	(property_list [structural_ProjectKB_Instance_10015])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.MultiResourceWidget")
+	(width 200)
+	(x 0)
+	(y 120))
+
+([structural_ProjectKB_Instance_10015] of  Property_List
+)
+
+([structural_ProjectKB_Instance_10016] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "owl:equivalentClass")
+	(property_list [structural_ProjectKB_Instance_10017])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.MultiLiteralWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([structural_ProjectKB_Instance_10017] of  Property_List
+)
+
+([structural_ProjectKB_Instance_10027] of  Widget
+
+	(height 240)
+	(is_hidden FALSE)
+	(name "protege:inferredType")
+	(property_list [structural_ProjectKB_Instance_10028])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 200)
+	(y 510))
+
+([structural_ProjectKB_Instance_10028] of  Property_List
+
+	(properties
+		[structural_ProjectKB_Instance_10029]
+		[structural_ProjectKB_Instance_10030]))
+
+([structural_ProjectKB_Instance_10029] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([structural_ProjectKB_Instance_10030] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([structural_ProjectKB_Instance_10031] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "owl:versionInfo")
+	(property_list [structural_ProjectKB_Instance_10032])
+	(widget_class_name "edu.stanford.smi.protege.widget.StringListWidget")
+	(width 200)
+	(x 0)
+	(y 270))
+
+([structural_ProjectKB_Instance_10032] of  Property_List
+)
+
+([structural_ProjectKB_Instance_10033] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "rdfs:comment")
+	(property_list [structural_ProjectKB_Instance_10034])
+	(widget_class_name "edu.stanford.smi.protege.widget.StringListWidget")
+	(width 200)
+	(x 0)
+	(y 390))
+
+([structural_ProjectKB_Instance_10034] of  Property_List
+)
+
+([structural_ProjectKB_Instance_10035] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "rdfs:label")
+	(property_list [structural_ProjectKB_Instance_10036])
+	(widget_class_name "edu.stanford.smi.protege.widget.StringListWidget")
+	(width 200)
+	(x 0)
+	(y 510))
+
+([structural_ProjectKB_Instance_10036] of  Property_List
+)
+
+([structural_ProjectKB_Instance_10037] of  Widget
+
+	(is_hidden FALSE)
+	(name "rdf:value")
+	(property_list [structural_ProjectKB_Instance_10038]))
+
+([structural_ProjectKB_Instance_10038] of  Property_List
+)
+
+([structural_ProjectKB_Instance_10039] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "owl:sameAs")
+	(property_list [structural_ProjectKB_Instance_10040])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 200)
+	(y 390))
+
+([structural_ProjectKB_Instance_10040] of  Property_List
+
+	(properties
+		[structural_ProjectKB_Instance_10041]
+		[structural_ProjectKB_Instance_10042]))
+
+([structural_ProjectKB_Instance_10041] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([structural_ProjectKB_Instance_10042] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([structural_ProjectKB_Instance_10043] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "owl:differentFrom")
+	(property_list [structural_ProjectKB_Instance_10044])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 200)
+	(y 270))
+
+([structural_ProjectKB_Instance_10044] of  Property_List
+
+	(properties
+		[structural_ProjectKB_Instance_10045]
+		[structural_ProjectKB_Instance_10046]))
+
+([structural_ProjectKB_Instance_10045] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([structural_ProjectKB_Instance_10046] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([structural_ProjectKB_Instance_10047] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "rdfs:member")
+	(property_list [structural_ProjectKB_Instance_10048])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 390))
+
+([structural_ProjectKB_Instance_10048] of  Property_List
+
+	(properties
+		[structural_ProjectKB_Instance_10049]
+		[structural_ProjectKB_Instance_10050]))
+
+([structural_ProjectKB_Instance_10049] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([structural_ProjectKB_Instance_10050] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([structural_ProjectKB_Instance_10051] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "rdfs:isDefinedBy")
+	(property_list [structural_ProjectKB_Instance_10052])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 270))
+
+([structural_ProjectKB_Instance_10052] of  Property_List
+
+	(properties
+		[structural_ProjectKB_Instance_10053]
+		[structural_ProjectKB_Instance_10054]))
+
+([structural_ProjectKB_Instance_10053] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([structural_ProjectKB_Instance_10054] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([structural_ProjectKB_Instance_10055] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "rdf:type")
+	(property_list [structural_ProjectKB_Instance_10056])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsListWidget")
+	(width 200)
+	(x 0)
+	(y 630))
+
+([structural_ProjectKB_Instance_10056] of  Property_List
+)
+
+([structural_ProjectKB_Instance_10057] of  Widget
+
+	(height 240)
+	(is_hidden FALSE)
+	(name "rdfs:seeAlso")
+	(property_list [structural_ProjectKB_Instance_10058])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 510))
+
+([structural_ProjectKB_Instance_10058] of  Property_List
+
+	(properties
+		[structural_ProjectKB_Instance_10059]
+		[structural_ProjectKB_Instance_10060]))
+
+([structural_ProjectKB_Instance_10059] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([structural_ProjectKB_Instance_10060] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([structural_ProjectKB_Instance_10061] of  String
 
 	(name ":INSTANCE-ANNOTATION")
 	(string_value "%3AANNOTATION-TEXT"))
 
-([structural_ProjectKB_Instance_110] of  String
+([structural_ProjectKB_Instance_10062] of  String
 
 	(name ":PAL-CONSTRAINT")
 	(string_value "%3APAL-NAME"))
 
-([structural_ProjectKB_Instance_111] of  String
+([structural_ProjectKB_Instance_10063] of  String
+
+	(name "owl:Thing")
+	(string_value "%3ANAME"))
+
+([structural_ProjectKB_Instance_10064] of  String
 
 	(name ":META-CLASS")
 	(string_value "%3ANAME"))
 
-([structural_ProjectKB_Instance_112] of  Map
-
-	(entries
-		[structural_ProjectKB_Instance_113]
-		[structural_ProjectKB_Instance_114]))
-
-([structural_ProjectKB_Instance_113] of  Map_Entry
+([structural_ProjectKB_Instance_10065] of  Map_Entry
 
 	(key "change_tracking_active")
 	(key_class "java.lang.String")
 	(value "false")
 	(value_class "java.lang.String"))
 
-([structural_ProjectKB_Instance_114] of  Map_Entry
+([structural_ProjectKB_Instance_10066] of  Map_Entry
 
 	(key "add_name_on_instance_form")
 	(key_class "java.lang.String")
 	(value "false")
 	(value_class "java.lang.String"))
+
+([structural_ProjectKB_Instance_108] of  String
+
+	(name "SearchTab_Query"))
+
+([structural_ProjectKB_Instance_112] of  Map
+
+	(entries
+		[structural_ProjectKB_Instance_10065]
+		[structural_ProjectKB_Instance_10066]))
+
+([structural_ProjectKB_Instance_2] of  String
+
+	(name "classes_file_name")
+	(string_value "struct_classes.owl"))
+
+([structural_ProjectKB_Instance_20047] of  Integer
+
+	(integer_value 407)
+	(name "owl_build"))
+
+([structural_ProjectKB_Instance_3] of  String
+
+	(name "instances_file_name")
+	(string_value "struct_instances.rdf"))
 
 ([VERTICAL_STRETCHER] of  String
 
