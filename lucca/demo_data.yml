@@ -39,7 +39,7 @@ Lucca:
     - ":preroman"
     - ":roman"
     - ":longobardian"
-    - ":xi-xiv_century"
+    - ":xi_xiv_century"
     - ":guinigi_era"
     - ":contemporary"
 
@@ -62,7 +62,7 @@ longobardian:
   rdfs#label: "Lombardian era"
   talias#shortname: "Lombardian"
   luccadom#begins: ":vi_century"
-  luccadom#next_epoch: ":xi-xiv_century"
+  luccadom#next_epoch: ":xi_xiv_century"
   
 xi_xiv_century:
   type: "luccadom:epoch"
@@ -113,7 +113,7 @@ Duomo_di_San_Martino:
     - ":Catholizism"
   luccadom#close_to:
     - ":Piazza_San_Martino"
-  luccadom#in_epoch: ":xi-xiv_century"
+  luccadom#in_epoch: ":xi_xiv_century"
       
 San_Frediano:
   type:
@@ -122,7 +122,7 @@ San_Frediano:
   rdfs#label:
     - "Basilica di San Frediano"
   talias#shortname: "San Frediano"
-  luccadom#in_epoch: ":xi-xiv_century"
+  luccadom#in_epoch: ":xi_xiv_century"
   luccadom#coordinates:
     - "43 50 46.32N,10 30 17.28E"
   luccadom#contains:
@@ -140,7 +140,7 @@ San_Michele_in_Foro:
     - "San Michele in Foro (Church)"
   talias#shortname: "San Michele"
   luccadom#in_epoch:
-    - ":xi-xiv_century"
+    - ":xi_xiv_century"
   luccadom#coordinates:
     - "43 50 35.46N,10 30 11.19E"
   luccadom#subject:
