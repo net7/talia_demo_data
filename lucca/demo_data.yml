@@ -214,17 +214,19 @@ Piazza_dell_Anfiteatro:
     
 Torre_Guinigi:
   type:
-    "luccadom:building"
+    - "luccadom:building"
   rdfs#label:
     - "Guinigi Tower"
     - "Guinigi Tower and House"
   talias#shortname: "Guinigi Tower"
   luccadom#in_epoch:
     - ":guinigi_era"
-  talias#refers_to: - ":Guinigi_Family"
+  talias#refers_to: 
+    - ":Guinigi_Family"
   luccadom#coordinates:
     - "43 50 37.70N,10 30 25.19E"
-  talias#refers_to: - ":Guinigi_family"
+  talias#refers_to: 
+    - ":Guinigi_family"
     
 Guinigi_family:
   type:
@@ -304,8 +306,7 @@ Taddeucci_Shop:
   talias#refers_to: ":Buccellato"
   rdfs#label: "Pasticceria Taddeucci"
   rdfs#shortname: "Taddeucci Shop"
-  
-  
+    
 Buccellato:
   type:
     - "luccadom:speciality"
@@ -322,7 +323,8 @@ Museo_e_Pinacoteca_Nazionale_di_Lucca:
     - "Museo e Pinacoteca Nazionale di Lucca"
     - "Palazzo Mansi"
   talias#shortname: "Pinacoteca Nazionale"
-  talias#refers_to: - "Mansi_Family"
+  talias#refers_to: 
+    - "Mansi_Family"
   luccadom#coordinates:
     - "43 50 38N,10 29 57E"
   luccadom#in_epoch: ":longobardian"
@@ -340,7 +342,8 @@ Museo_Nazionale_Guinigi:
     - "Guinigi National Museum"
     - "Museo Nazionale Guinigi"
   talias#shortname: "Guinigi Museum"
-  talias#refers_to: - ":Guinigi_family"
+  talias#refers_to: 
+    - ":Guinigi_family"
   luccadom#coordinates: "43 50 43N,10 30 38E"
 
 Serchio:
@@ -375,7 +378,8 @@ decorations_san_frediano:
     - "luccadom:artwork"
   rdfs#label: "Decorations of San Frediano"
   talias#shortname: "Decorations S. Frediano"
-  luccadom#subject: - ":Catholizism"
+  luccadom#subject: 
+    - ":Catholizism"
 
 La_Boheme:
   type:
@@ -387,13 +391,16 @@ La_Boheme:
 Tosca:
   type:
     - "luccadom:artwork"
-  rdfs#label: - "Tosca"
+  rdfs#label: 
+    - "Tosca"
 
 Madame_Butterfly:
   type:
     - "luccadom:artwork"
-  rdfs#label: - "Madama Butterfly"
-  talias#shortname: - "Madama Butterfly"
+  rdfs#label: 
+    - "Madama Butterfly"
+  talias#shortname: 
+    - "Madama Butterfly"
 
 Tempietto_Volto_Santo:
   type:
