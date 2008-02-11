@@ -437,10 +437,35 @@ Piazza_San_Martino:
     type: 
         - "luccadom:place"
     rdfs#label: "Piazza San Martino"
-    luccadom#shortname: "Piazza San Martino"
+    talias#shortname: "Piazza San Martino"
 
 Piazza_San_Michele:
     type:
         - "luccadom:place"
     rdfs#label: "Piazza San Michele"
-    luccadom#shortname: "Piazza San Michele"
+    talias#shortname: "Piazza San Michele"
+
+nietzsche_sample:
+    type:
+        - "rdf:Resource"
+    rdfs#label: "Sample Nietzsche document"
+    talias#shortname: "Nietzsche sample"
+    luccadom#transcript:
+       - ":nietzsche_sample_transcript1"
+       - ":nietzsche_sample_transcript2"
+       - ":nietzsche_sample_transcript3"
+
+nietzsche_sample_transcript1:
+    type: "rdf:Resource"
+    rdfs#label: "Transcript of paragraph 1"
+    talias#shortname: "Paragraph 1"
+
+nietzsche_sample_transcript2:
+    type: "rdf:Resource"
+    rdfs#label: "Transcript of paragraph 2"
+    talias#shortname: "Paragraph 2"
+
+nietzsche_sample_transcript3:
+    type: "rdf:Resource"
+    rdfs#label: "Transcript of paragraph 3"
+    talias#shortname: "Paragraph 3"

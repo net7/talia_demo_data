@@ -1,0 +1,11 @@
+file:/Developer/Talia/demo_data/foaf.rdfs?forceReadOnly=true
+file:/Developer/Talia/demo_data/?forceReadOnly=true&Recursive=false
+file:/Developer/Talia/demo_data/?forceReadOnly=true&Recursive=false
+[Dublin Core DL Redirect]
+file:/Developer/Talia/demo_data/structural.rdfs?forceReadOnly=false
+file:/Developer/Talia/demo_data/structural.rdf?forceReadOnly=false
+file:/Developer/Talia/demo_data/structural.rdfs?forceReadOnly=false
+file:/Developer/Talia/demo_data/structural.rdfs?forceReadOnly=false
+file:/Developer/Talia/demo_data/foaf.rdfs?forceReadOnly=false
+http://xmlns.com/foaf/spec/index.rdf
+file:/Developer/Talia/demo_data/structural.owl?forceReadOnly=false

@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://www.owl-ontologies.com/unnamed.owl#"
+  xml:base="http://www.owl-ontologies.com/unnamed.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="ResearchStudy">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Interpreting"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Source">
+    <j.0:SLOT-CONSTRAINTS>
+      <j.0:PAL-CONSTRAINT rdf:ID="KB_250160_Instance_1"/>
+    </j.0:SLOT-CONSTRAINTS>
+  </owl:Class>
+  <owl:Class rdf:ID="Describing">
+    <rdfs:subClassOf rdf:resource="#Source"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Concordance">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Ordering"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Path">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Ordering"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Review">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Interpreting"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="DocumentTransmission">
+    <rdfs:subClassOf rdf:resource="#Describing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Commentary">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Interpreting"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Contributor">
+    <rdfs:subClassOf rdf:resource="#Source"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Bibliography">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Ordering"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="FacsimileEdition">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Edition"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Republication">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Editing"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Editing">
+    <rdfs:subClassOf rdf:resource="#Source"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Edition">
+    <rdfs:subClassOf rdf:resource="#Editing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Interpreting">
+    <rdfs:subClassOf rdf:resource="#Source"/>
+  </owl:Class>
+  <owl:Class rdf:ID="IntroductoryLecture">
+    <rdfs:subClassOf rdf:resource="#Interpreting"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Description">
+    <rdfs:subClassOf rdf:resource="#Describing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Ordering">
+    <rdfs:subClassOf rdf:resource="#Source"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Cataloguing">
+    <rdfs:subClassOf rdf:resource="#Describing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="GenericEdition">
+    <rdfs:subClassOf rdf:resource="#Edition"/>
+  </owl:Class>
+  <owl:Class rdf:ID="BibliographicalEntry">
+    <rdfs:subClassOf rdf:resource="#Describing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Interview">
+    <rdfs:subClassOf rdf:resource="#Interpreting"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Translation">
+    <rdfs:subClassOf rdf:resource="#Interpreting"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CriticalEdition">
+    <rdfs:subClassOf rdf:resource="#Edition"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Collecianea">
+    <rdfs:subClassOf rdf:resource="#Ordering"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="has_contributor">
+    <rdfs:domain rdf:resource="#Source"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="refers_to">
+    <rdfs:domain rdf:resource="#Source"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="part_of">
+    <rdfs:domain rdf:resource="#Source"/>
+  </owl:ObjectProperty>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.3, Build 407)  http://protege.stanford.edu -->
