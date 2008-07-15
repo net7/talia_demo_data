@@ -1,16 +1,16 @@
-; Wed Jan 23 14:43:20 CET 2008
+; Thu Jun 19 15:43:23 CEST 2008
 ; 
-;+ (version "3.3")
-;+ (build "Build 409")
+;+ (version "3.3.1")
+;+ (build "Build 430")
 
 ([BROWSER_SLOT_NAMES] of  Property_List
 
 	(properties
-		[lucca_ProjectKB_Instance_10038]
-		[lucca_ProjectKB_Instance_10039]
-		[lucca_ProjectKB_Instance_10040]
-		[lucca_ProjectKB_Instance_10041]
-		[lucca_ProjectKB_Instance_10042]))
+		[lucca_ProjectKB_Instance_10000]
+		[lucca_ProjectKB_Instance_10001]
+		[lucca_ProjectKB_Instance_10002]
+		[lucca_ProjectKB_Instance_10003]
+		[lucca_ProjectKB_Instance_10004]))
 
 ([CLSES_TAB] of  Widget
 
@@ -3986,59 +3986,21 @@
 ([KB_938545_Instance_292] of  String
 
 	(name "vertical_stretcher")
-	(string_value "<<all>>"))
+	(string_value "<<none>>"))
 
 ([KB_938545_Instance_293] of  Widget
 
-	(height 220)
+	(height 0)
 	(is_hidden FALSE)
 	(label "Domain")
 	(name ":DIRECT-DOMAIN")
 	(property_list [KB_938545_Instance_294])
-	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.domain.OWLDomainWidget")
-	(width 200)
+	(width 0)
 	(x 0)
-	(y 170))
+	(y 0))
 
 ([KB_938545_Instance_294] of  Property_List
-
-	(properties
-		[KB_938545_Instance_295]
-		[KB_938545_Instance_296]
-		[KB_938545_Instance_297]
-		[KB_938545_Instance_298]
-		[KB_938545_Instance_299]
-		[KB_938545_Instance_300]))
-
-([KB_938545_Instance_295] of  Boolean
-
-	(boolean_value TRUE)
-	(name "ButtonDisplayed-View Selected Instances"))
-
-([KB_938545_Instance_296] of  Boolean
-
-	(boolean_value TRUE)
-	(name "ButtonDisplayed-Create Instance"))
-
-([KB_938545_Instance_297] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-References"))
-
-([KB_938545_Instance_298] of  Boolean
-
-	(boolean_value TRUE)
-	(name "ButtonDisplayed-Add"))
-
-([KB_938545_Instance_299] of  Boolean
-
-	(boolean_value TRUE)
-	(name "ButtonDisplayed-Remove"))
-
-([KB_938545_Instance_300] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-Delete Selected Instances"))
+)
 
 ([KB_938545_Instance_301] of  Widget
 
@@ -4167,14 +4129,13 @@
 
 ([KB_938545_Instance_325] of  Widget
 
-	(height 220)
+	(height 0)
 	(is_hidden FALSE)
 	(name "rdfs:range")
 	(property_list [KB_938545_Instance_326])
-	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.range.OWLRangeWidget")
-	(width 200)
-	(x 200)
-	(y 170))
+	(width 0)
+	(x 0)
+	(y 0))
 
 ([KB_938545_Instance_326] of  Property_List
 )
@@ -6963,27 +6924,27 @@
 	(property_list [lucca_ProjectKB_Instance_11])
 	(widget_class_name "edu.stanford.smi.protegex.psm.PSMTab"))
 
-([lucca_ProjectKB_Instance_10038] of  String
+([lucca_ProjectKB_Instance_10000] of  String
 
 	(name "owl:Class")
 	(string_value "%3ANAME"))
 
-([lucca_ProjectKB_Instance_10039] of  String
+([lucca_ProjectKB_Instance_10001] of  String
 
 	(name ":INSTANCE-ANNOTATION")
 	(string_value "%3AANNOTATION-TEXT"))
 
-([lucca_ProjectKB_Instance_10040] of  String
+([lucca_ProjectKB_Instance_10002] of  String
 
 	(name ":PAL-CONSTRAINT")
 	(string_value "%3APAL-NAME"))
 
-([lucca_ProjectKB_Instance_10041] of  String
+([lucca_ProjectKB_Instance_10003] of  String
 
 	(name "owl:Thing")
 	(string_value "%3ANAME"))
 
-([lucca_ProjectKB_Instance_10042] of  String
+([lucca_ProjectKB_Instance_10004] of  String
 
 	(name ":META-CLASS")
 	(string_value "%3ANAME"))
@@ -7222,7 +7183,7 @@
 
 ([OWL_ProjectKB_Instance_3] of  Integer
 
-	(integer_value 407)
+	(integer_value 430)
 	(name "owl_build"))
 
 ([PAL_FORM_WIDGET] of  Widget
@@ -7244,12 +7205,12 @@
 		[KB_713803_Instance_693]
 		[KB_313796_Instance_943]
 		[KB_938545_Instance_495]
-		[STANDARD_CLASS_FORM_WIDGET]
 		[KB_713803_Instance_303]
+		[STANDARD_CLASS_FORM_WIDGET]
 		[KB_313796_Instance_852]
 		[Instance_1005]
-		[KB_301165_Instance_1013]
 		[Instance_581]
+		[KB_301165_Instance_1013]
 		[KB_938545_Instance_412]
 		[KB_764103_Instance_545]
 		[KB_713803_Instance_390]
@@ -7292,12 +7253,12 @@
 		"owl:Class"
 		"rdfs:Container"
 		"owl:Ontology"
-		":TO"
-		"xsd:gMonthDay"
 		"owl:DataRange"
+		"xsd:gMonthDay"
+		":TO"
 		"xsd:NMTOKEN"
-		"xsd:QName"
 		"xsd:unsignedInt"
+		"xsd:QName"
 		"owl:FunctionalProperty"
 		"xsd:long"
 		"owl:onProperty"
@@ -7326,16 +7287,16 @@
 		"xsd:decimal"
 		"rdf:subject"
 		"owl:sameAs"
-		"xsd:Name"
-		"rdf:value"
 		"owl:SymmetricProperty"
+		"rdf:value"
+		"xsd:Name"
 		"xsd:byte"
 		"owl:differentFrom"
 		"owl:AllDifferent"
-		"rdf:Property"
 		"owl:Nothing"
-		"owl:cardinality"
+		"rdf:Property"
 		"owl:InverseFunctionalProperty"
+		"owl:cardinality"
 		"xsd:nonNegativeInteger"
 		"rdf:Statement"
 		":FROM"
@@ -7345,20 +7306,20 @@
 		"xsd:ID"
 		"xsd:gDay"
 		"xsd:gYearMonth"
-		"xsd:NCName"
 		"owl:distinctMembers"
+		"xsd:NCName"
 		"xsd:nonPositiveInteger"
 		"rdfs:Datatype"
-		":DIRECTED-BINARY-RELATION"
-		"xsd:token"
 		"owl:TransitiveProperty"
-		"xsd:IDREF"
-		"xsd:ENTITY"
+		"xsd:token"
+		":DIRECTED-BINARY-RELATION"
 		"xsd:normalizedString"
+		"xsd:ENTITY"
+		"xsd:IDREF"
 		"xsd:gMonth"
-		"rdf:type"
-		"owl:oneOf"
 		"owl:maxCardinality"
+		"owl:oneOf"
+		"rdf:type"
 		"rdf:object")
 	(journaling_enabled FALSE)
 	(next_frame_number 0)

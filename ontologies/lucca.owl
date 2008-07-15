@@ -24,15 +24,15 @@
     <rdfs:subClassOf rdf:resource="#luccaThing"/>
   </owl:Class>
   <owl:Class rdf:ID="city">
-    <rdfs:comment xml:lang="en">A city</rdfs:comment>
     <rdfs:label xml:lang="en">City</rdfs:label>
     <rdfs:subClassOf>
       <owl:Class rdf:ID="place"/>
     </rdfs:subClassOf>
+    <rdfs:comment xml:lang="en">A city</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="#place">
-    <rdfs:label xml:lang="en">Place</rdfs:label>
     <rdfs:subClassOf rdf:resource="#luccaThing"/>
+    <rdfs:label xml:lang="en">Place</rdfs:label>
     <rdfs:comment xml:lang="en">A Geographical place</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:ID="museum">
@@ -42,28 +42,28 @@
   </owl:Class>
   <owl:Class rdf:about="#building">
     <rdfs:subClassOf rdf:resource="#place"/>
-    <rdfs:comment xml:lang="en">A physical building</rdfs:comment>
     <rdfs:label xml:lang="en">Building</rdfs:label>
+    <rdfs:comment xml:lang="en">A physical building</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:ID="institution">
-    <rdfs:comment xml:lang="en">An inistitution</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#luccaThing"/>
+    <rdfs:comment xml:lang="en">An inistitution</rdfs:comment>
     <rdfs:label xml:lang="en">Institution</rdfs:label>
   </owl:Class>
   <owl:Class rdf:ID="artwork">
+    <rdfs:comment xml:lang="en">A Work of Art</rdfs:comment>
     <rdfs:label xml:lang="en">Artwork</rdfs:label>
     <rdfs:subClassOf rdf:resource="#luccaThing"/>
-    <rdfs:comment xml:lang="en">A Work of Art</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:ID="villa">
+    <rdfs:label xml:lang="en">Villa</rdfs:label>
     <rdfs:subClassOf rdf:resource="#building"/>
     <rdfs:comment xml:lang="en">A villa</rdfs:comment>
-    <rdfs:label xml:lang="en">Villa</rdfs:label>
   </owl:Class>
   <owl:ObjectProperty rdf:ID="coordinates">
-    <rdfs:domain rdf:resource="#place"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Coordinates</rdfs:comment>
+    <rdfs:domain rdf:resource="#place"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="contains">
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -72,9 +72,9 @@
   <owl:ObjectProperty rdf:ID="citizen">
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >citizen of a city</rdfs:comment>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <rdfs:domain rdf:resource="#city"/>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </owl:ObjectProperty>
 </rdf:RDF>
 
-<!-- Created with Protege (with OWL Plugin 3.3, Build 407)  http://protege.stanford.edu -->
+<!-- Created with Protege (with OWL Plugin 3.3.1, Build 430)  http://protege.stanford.edu -->
