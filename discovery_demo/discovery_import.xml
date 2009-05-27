@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="talia_import.xsd">
+    <source>
+        <book>
+            <siglum>BookA</siglum>
+            <title>A First Book</title>
+            <type>work</type>
+            <subtype>draft</subtype>
+            <copyrightNote/>
+            <description>A book as an example</description>
+            <date/>
+            <collocation/>
+            <publisher>Test Publisher</publisher>
+            <publishingPlace>TaliaTown</publishingPlace>
+            <ordering>1</ordering>
+        </book>
+    </source>
+    <source>
+        <page>
+            <!-- 
+                IMPORTANT: The page siglum should contain a comma, as the 
+                Discovery version of Talia uses this to distinguish pages from
+                books!
+            -->
+            <siglum>Page,1</siglum>
+            <title>First page</title>
+            <type>work_page</type>
+            <width>0</width>
+            <height>0</height>
+            <position>000001</position>
+            <position_name>1</position_name>
+            <relations>
+                <relation>
+                    <predicate>isSubPartOf</predicate>
+                    <object>BookA</object>
+                </relation>
+            </relations>
+        </page>
+    </source>
+    <source>
+        <page>
+            <siglum>Page,2</siglum>
+            <title>Second page</title>
+            <type>work_page</type>
+            <width>0</width>
+            <height>0</height>
+            <position>000002</position>
+            <position_name>2</position_name>
+            <relations>
+                <relation>
+                    <predicate>isSubPartOf</predicate>
+                    <object>BookA</object>
+                </relation>
+            </relations>
+        </page>
+    </source>
+    <source>
+        <facsimile>
+            <siglum>page1_image</siglum>
+            <title>Facsimile of the first page</title>
+            <publishing_date/>
+            <publisher>Test Publisher</publisher>
+            <language>en-EN</language>
+            <alreadyPublished>no</alreadyPublished>
+            <relations>
+                <relation>
+                    <predicate>isManifestationOf</predicate>
+                    <object>Page,1</object>
+                </relation>
+            </relations>
+            <copyrightNote>Creative Commons</copyrightNote>
+            <subtype>color</subtype>
+            <dimensionX>0</dimensionX>
+            <dimensionY>0</dimensionY>
+            <file_size>0</file_size>
+            <file_name>page1.jpeg</file_name>
+            <file_url>talia_demo_data/discovery_demo/data/page1.jpg</file_url>
+            <file_content_type>jpeg</file_content_type>
+            <authors>
+                <author>The test guy</author>
+                <author>sviola</author>
+            </authors>
+        </facsimile>
+    </source>
+    <source>
+        <facsimile>
+            <siglum>page2_image</siglum>
+            <title>Facsimile of the second page</title>
+            <publishing_date/>
+            <publisher>Test Publisher</publisher>
+            <language>en-EN</language>
+            <alreadyPublished>no</alreadyPublished>
+            <relations>
+                <relation>
+                    <predicate>isManifestationOf</predicate>
+                    <object>Page,2</object>
+                </relation>
+            </relations>
+            <copyrightNote>Creative Commons</copyrightNote>
+            <subtype>color</subtype>
+            <dimensionX>0</dimensionX>
+            <dimensionY>0</dimensionY>
+            <file_size>0</file_size>
+            <file_name>page2.jpeg</file_name>
+            <file_url>talia_demo_data/discovery_demo/data/page2.jpg</file_url>
+            <file_content_type>jpeg</file_content_type>
+            <authors>
+                <author>The test guy</author>
+                <author>sviola</author>
+            </authors>
+        </facsimile>
+    </source>
+</sources>
