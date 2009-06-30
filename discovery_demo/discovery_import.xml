@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="talia_import.xsd">
+	<!-- Book and Page structure -->
     <source>
         <book>
             <siglum>BookA</siglum>
@@ -55,6 +56,7 @@
             </relations>
         </page>
     </source>
+	<!-- Facsimiles -->
     <source>
         <facsimile>
             <siglum>page1_image</siglum>
@@ -111,4 +113,88 @@
             </authors>
         </facsimile>
     </source>
+	<!-- Texts -->
+	<source> 
+		<paragraph>
+			<siglum>head_param</siglum> 
+			<title></title> 
+			<type>work_page_annotation</type> 
+			<notes>   
+				<note> 
+					<page>Page,1</page> 
+					<position>000001</position> 
+					<coordinates></coordinates> 
+				</note>
+			</notes>  
+		</paragraph>
+	</source>
+	<source> 
+		<paragraph>
+			<siglum>main_param</siglum> 
+			<title></title> 
+			<type>work_page_annotation</type> 
+			<notes>   
+				<note> 
+					<page>Page,1</page> 
+					<position>000002</position> 
+					<coordinates></coordinates> 
+				</note>
+				<note> 
+					<page>Page,2</page> 
+					<position>000001</position> 
+					<coordinates></coordinates> 
+				</note>
+			</notes>  
+		</paragraph>
+	</source>
+	<source>
+		<transcription>
+			<siglum>head-transcript</siglum>
+			<title/>
+			<publishing_date>2004-03-18</publishing_date>
+			<publisher>TaliaDemo</publisher>
+			<language></language>
+			<alreadyPublished>yes</alreadyPublished>
+			<relations>
+				<relation>
+					<predicate>isManifestationOf</predicate>
+					<object>head_param</object>
+				</relation>
+			</relations>
+			<subtype>html</subtype>
+			<file_size>0</file_size>
+			<file_name>head.xhtml</file_name>
+			<file_url>talia_demo_data/discovery_demo/data/head.xhtml</file_url>
+			<file_content_type>xhtml</file_content_type>
+			<authors>
+				<author>willy</author>
+				<author>wonka</author>
+			</authors>
+		</transcription>
+	</source>
+	<source>
+		<transcription>
+			<siglum>main-transcript</siglum>
+			<title/>
+			<publishing_date>2004-03-18</publishing_date>
+			<publisher>TaliaDemo</publisher>
+			<language></language>
+			<alreadyPublished>yes</alreadyPublished>
+			<relations>
+				<relation>
+					<predicate>isManifestationOf</predicate>
+					<object>main_param</object>
+				</relation>
+			</relations>
+			<subtype>hnml</subtype>
+			<file_size>0</file_size>
+			<file_name>main.xhtml</file_name>
+			<file_url>talia_demo_data/discovery_demo/data/main.xhtml</file_url>
+			<file_content_type>xhtml</file_content_type>
+			<authors>
+				<author>willy</author>
+				<author>wonka</author>
+			</authors>
+		</transcription>
+	</source>
 </sources>
