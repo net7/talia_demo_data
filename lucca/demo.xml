@@ -1620,8 +1620,7 @@
       <predicate>luccadom:in_epoch</predicate>
       <object>:contemporary</object>
     </attribute>
-    <file>ImageData/old_map.tif</file><!-- This is to be shown in IIP -->
-	<file>ImageData/old_map_thumb.jpg</file><!-- This is a thumbnail for the preview box in the sources list page -->
+    <file>ImageData/old_map.jpg</file><!-- This is to be shown in IIP -->
   </source>
 
 
@@ -1662,8 +1661,7 @@
       <predicate>luccadom:in_epoch</predicate>
       <object>:contemporary</object>
     </attribute>
-    <file>ImageData/old_letter.tif</file><!-- This is to be shown in IIP -->
-	<file>ImageData/old_letter.jpg</file><!-- This is a thumbnail for the preview box in the sources list page -->
+    <file>ImageData/old_letter.jpg</file><!-- This is to be shown in IIP -->
   </source>
 
 <source>
@@ -1707,8 +1705,7 @@
       <predicate>luccadom:in_epoch</predicate>
       <object>:contemporary</object>
     </attribute>
-    <file>ImageData/painting1.tif</file><!-- This is to be shown in IIP -->
-	<file>ImageData/painting1.jpg</file><!-- This is a thumbnail for the preview box in the sources list page -->
+    <file>ImageData/painting1.jpg</file><!-- This is to be shown in IIP -->
   </source>
 
 </sources>
