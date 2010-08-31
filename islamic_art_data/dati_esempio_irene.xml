@@ -1,0 +1,1628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sources>
+<!-- Note: -->
+<!-- come mi ha detto di fare Daniel quando le property hanno come valore un literal e ce n'è una versione in più lingue ho messo l'ISO code della lingua alla fine della stringa preceduto dal simbolo @. Per esempio:
+<attribute>
+	<predicate>dcns:Title</predicate>
+	<value>this is the english title@en</value>
+	<value>questo è il titolo in italiano@it</value>
+</attribute>
+
+-->
+
+
+<!-- Instances of PERSON (and its subclasses)-->
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Abd_al_Malik</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Abd al-Malik ibn Marwan</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:birth_date</predicate>
+			<value>646</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:death_date</predicate>
+			<value>705</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:birthplace</predicate>
+			<object>:Mecca</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:deathplace</predicate>
+			<object>:Al-Sinnabra</object>
+		</attribute>
+		<attribute>
+			<predicate>dcns:description</predicate>
+			<value>Abd al Malik was the 5th Umayyad caliph. He was a well-educated man and a capable ruler. During his reign all important records were translated into Arabic and for the firts time a special currency for the Muslim world was minted@en</value>
+			<value>Abd al Malik è stato il quinto califfo Omayyade. Fu un uomo ben educato e un regnante con grandi capacità. Durante il suo regno, importanti testi furono tradotti in arabo e per la prima volta fu coniata una moneta per il mondo musulmano@it</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Caliph</object>
+		</attribute>
+	</source>
+
+
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Al_Walid</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Al-Walid ibn Abd al-Malik (Al-Walid I)</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:birth_date</predicate>
+			<value>668</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:death_date</predicate>
+			<value>715</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:son_of</predicate>
+			<object>:Abd_al_Malik</object>
+		</attribute>
+		<attribute>
+			<predicate>dcns:description</predicate>
+			<value>al-Walid was a Umayyad caliph who continued the expansion of the Empire and took the early Islamic Empire to its farthest extent@en</value>
+			<value>al-Walid è stato un califfo Omayyade che continuò l'espansione dell'Impero fino a portare il giovane Impero Islamico alla sua massima estensione@it</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Caliph</object>
+		</attribute>
+	</source>
+
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Prophet_Mohammad</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Prophet Mohammad@en</value>
+			<value>Profeta Maometto@it</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:birth_date</predicate>
+			<value>570</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:death_date</predicate>
+			<value>632</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:author_of</predicate>
+			<object>:Quran</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:birthplace</predicate>
+			<object>:Mecca</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:deathplace</predicate>
+			<object>:Medina</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:cited_in</predicate>
+			<object>:Divine_Comedy</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:depicted_in</predicate>
+			<object>:San_Petronio_Fresco</object>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Person</object>
+		</attribute>
+	</source>
+
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Harun_al_Rashid</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Harun al Rashid</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:birth_date</predicate>
+			<value>763</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:death_date</predicate>
+			<value>809</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:birthplace</predicate>
+			<object>:Rayy</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:deathplace</predicate>
+			<object>:Mashhad</object>
+		</attribute>
+		<attribute>
+			<predicate>dcns:description</predicate>
+			<value>Harun al Rashid was the fifth and most famous Abbasid caliph. His reign was marked by scientific, cultural and religious prosperity@en</value>
+			<value>Harun alRashid è stato il quinto e il più famoso califfo Abbaside. Il suo regno è stato caratterizzato da grande prosperità nel campo scientifico, religioso e culturale@it</value>
+		</attribute>	
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Caliph</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:cited_in</predicate>
+			<object>:One_1000_and_1_Night</object>
+		</attribute>
+		<attribute>
+		<file>ImageData/Harun_al_Rashid.jpg</file>
+		</attribute>
+	</source>
+
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Al_Mutawakkil</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Al-Mutawakkil</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:birth_date</predicate>
+			<value>821</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:death_date</predicate>
+			<value>861</value>
+		</attribute>
+		<attribute>
+			<predicate>dcns:description</predicate>
+			<value>Abbasid caliph who reigned in Samarra from 847 until 861. He is known for putting an end to the attempt to impose a single version of Islam@</value>
+			<value>Califfo Abbaside che regnò a Samarra dal 847 al 861. é conosciuto per avere messo fine al tentativo di imporre un'unica versione dell'Islam@it</value> 
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Caliph</object>
+		</attribute>
+	</source>
+
+
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Abu_Bakr</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Abu Bakr As-Siddiq (Abdallah ibn Abi Qahafa)</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:birth_date</predicate>
+			<value>573</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:death_date</predicate>
+			<value>23-08-634</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:birthplace</predicate>
+			<object>:Mecca</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:deathplace</predicate>
+			<object>:Medina</object>
+		</attribute>
+		<attribute>
+			<predicate>dcns:description</predicate>
+			<value>Abū Bakr aṣ-Ṣiddīq or 'Abdullāh bin Abī Quhāfah was Muhammad's father-in-law, one of the closest companions and adviser. Abu Bakar succeeded to the Prophet's political and administrative functions, thereby initiating the office of the caliphate@en</value>
+			<value>Abū Bakr aṣ-Ṣiddīq or 'Abdullāh bin Abī Quhāfah fu il primo califfo dell'Islam dal 632 al 634, epoca in cui la Umma fu impegnata a combattere varie tribù della Penisola araba che avevano abiurato l'Islam o che, più semplicemente, avevano deciso di recuperare una loro piena libertà d'azione.@it</value>
+		</attribute>	
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Caliph</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:companion</predicate>
+			<object>:Prophet_Mohammad</object>
+		</attribute>
+	</source>
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Umar</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Umar the Great</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:birth_date</predicate>
+			<value>586</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:death_date</predicate>
+			<value>644</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:birthplace</predicate>
+			<object>:Mecca</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:deathplace</predicate>
+			<object>:Medina</object>
+		</attribute>
+		<attribute>
+			<predicate>dcns:description</predicate>
+			<value>was the most powerful of the four Rashidun Caliphs and one of the most powerful and influential Muslim rulers.@en</value>
+			<value>Appartenente al clan meccano dei Banū ʿAdi, della tribù dei Bànu Quraysh, ʿOmar non fu uno dei primissimi convertiti e, anzi, si distinse inizialmente per un acceso odio nei confronti dell'Islam. Si tramanda che la sua conversione fosse avvenuta in seguito a un ironico apprezzamento di un suo concittadino, come lui pagano, che gli avrebbe detto che la sua ostilità nei confronti della religione predicata da Maometto avrebbe dovuto esprimersi anche all'interno della famiglia di ʿOmar e nei confronti della sorella Fāṭima, diventata musulmana.@it</value>
+		</attribute>	
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Caliph</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:companion</predicate>
+			<object>:Prophet_Mohammad</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:predecessor</predicate>
+			<object>:Abu_Bakr</object>
+		</attribute>
+	</source>
+
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Uthman</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Othmàn ibn Affàn</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:birth_date</predicate>
+			<value>579</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:death_date</predicate>
+			<value>659</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:birthplace</predicate>
+			<object>:Taif</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:deathplace</predicate>
+			<object>:Medina</object>
+		</attribute>
+		<attribute>
+			<predicate>dcns:description</predicate>
+			<value>was one of the sahaba (companions of Islamic prophet Muhammad). An early convert to Islam, he played a major role in early Islamic history, most notably as the third Caliph of the Rashidun Empire, prophet's son-in-law and the compilation of the Qur'an.@en</value>
+			<value>Appartenente al clan omayyade (che in realtà si chiamava dei Banū ʿAbd Shams) della tribù della Mecca dei B. Quraysh - uno dei clan maggiormente avversi alla predicazione dell'Islam da parte di Maometto - ʿOthmān fu nondimeno uno dei primi convertiti e uno dei più importanti saḥib del Profeta.@it</value>
+		</attribute>	
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Caliph</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:companion</predicate>
+			<object>:Prophet_Mohammad</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:predecessor</predicate>
+			<object>:Umar</object>
+		</attribute>
+	</source>
+
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Dante_Alighieri</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Dante Alighieri</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:birth_date</predicate>
+			<value>1265</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:death_date</predicate>
+			<value>1321</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:birthplace</predicate>
+			<object>:Florence</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:deathplace</predicate>
+			<object>:Ravenna</object>
+		</attribute>
+		<attribute>
+			<predicate>dcns:description</predicate>
+			<value>Commonly known as Dante, was an Italian poet of the Middle Ages. He was born in Florence. He died and is buried in Ravenna. The name Dante is, according to the words of Jacopo Alighieri, a hypocorism for Durante. In contemporary documents it is followed by the patronymic Alagherii or de Alagheriis; it was Boccaccio who popularized the form Alighieri.
+			His Divine Comedy, originally called Commedia by the author and later nicknamed Divina by Boccaccio, is often considered the greatest literary work composed in the Italian language and a masterpiece of world literature.@en</value>
+			<value> fu un poeta, scrittore e politico italiano. Considerato il padre della lingua italiana, è l'autore della Comedìa, divenuta celebre come Divina Commedia.
+			Il suo nome, secondo la testimonianza di Jacopo Alighieri, è un ipocoristico di Durante:nei documenti era seguito dal patronimico Alagherii o dal gentilizio de Alagheriis, mentre la variante Alighieri si affermò solo con l'avvento di Boccaccio. È conosciuto in Italia come il Sommo Poeta, e spesso semplicemente chiamato per antonomasia il Poeta.@it</value>
+		</attribute>	
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Artist</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:author_of</predicate>
+			<object>:Divine_Comedy</object>
+		</attribute>
+	</source>
+
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Giovanni_da_Modena</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Giovanni di Pietro Falloppi (Giovanni da Modena)</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:birth_date</predicate>
+			<value>1379</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:death_date</predicate>
+			<value>1455</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:birthplace</predicate>
+			<object>:Modena</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:deathplace</predicate>
+			<object>:Modena</object>
+		</attribute>
+		<attribute>
+			<predicate>dcns:description</predicate>
+			<value>Was an italian Painter.@en</value>
+			<value> Nella Basilica di San Petronio di Bologna, intorno al 1410, realizzò gli affreschi de il "Paradiso", l'"Inferno" e le "Storie dei Re Magi", nella Cappella Bolognini. Nel 1420, nella Cappella di San Giorgio della stessa basilica, realizzò "L'Allegoria del trionfo della Chiesa sulla Sinagoga e del peccato originale"
+			La sua narrazione è corposa e vivace, con particolari estrosi e di cupezza nordica, a volte abbonda di particolari realistici o macabri, come la goccia di sangue che corre sul corpo del suo "Crocifisso", custodita nella Pinacoteca di Bologna, e le scene dell'"Inferno".@it</value>
+		</attribute>	
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Artist</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:author_of</predicate>
+			<object>:San_Petronio_Fresco</object>
+		</attribute>
+	</source>
+
+<!-- Sanctuary and subclasses -->
+
+<source>
+	<attribute>
+      <predicate>type</predicate>
+      <value>TaliaCore::Source</value>
+    </attribute>
+	<attribute>
+		<predicate>uri</predicate>
+		<value>Dome_of_the_Rock</value>
+	</attribute>
+	<attribute>
+		<predicate>rdfs:label</predicate>
+		<value>Dome of the Rock@en</value>
+		<value>Cupola della Roccia@it</value>
+	</attribute>
+	<attribute>
+		<predicate>demo:beginning_date</predicate>
+		<value>687</value>
+	</attribute>
+	<attribute>
+		<predicate>demo:finished_in</predicate>
+		<value>691</value>
+	</attribute>
+	<attribute>
+		<predicate>demo:coordinates</predicate>
+		<value>31.778, 35.2354</value>
+	</attribute>
+	<attribute>
+		<predicate>demo:located_in</predicate>
+		<object>:Jerusalem</object>
+	</attribute>
+	<attribute>
+		<predicate>rdf:type</predicate>
+		<object>demo:Sanctuary</object>
+	</attribute>
+	<attribute>
+		<predicate>demo:period</predicate>
+		<object>:Umayyad_Caliphate</object>
+	</attribute>
+	<attribute>
+		<predicate>demo:commissioned_by</predicate>
+		<object>:Abd_al_Malik</object>
+	</attribute>
+	<attribute>
+		<predicate>demo:type_of_decoration</predicate>
+		<object>:Byzantine_art</object>
+	</attribute>
+	<file>ImageData/Dome_of_the_Rock.jpg</file>
+	<file>ImageData/Dome_of_the_Rock_Dome.jpg</file>
+	<file>ImageData/Dome_of_the_rock_mosaics.jpg</file>
+	<file>ImageData/jerusalem_pano.jpg</file>
+	<file>Textdata/Dome_of_the_Rock.html</file>
+</source>
+
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Al_Aqsa_Mosque</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Al Aqsa Mosque@en</value>
+			<value>Moschea Al Aqsa@it</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:finished_in</predicate>
+			<value>705</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Mosque</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:coordinates</predicate>
+			<value>31.77617, 35.23583</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:located_in</predicate>
+			<object>Jerusalem</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:period</predicate>
+			<object>:Umayyad_Caliphate</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:commissioned_by</predicate>
+			<object>:Abd_al_Malik</object>
+			<object>:Al_Walid</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:part_of</predicate>
+			<object>:Haram_al_Sharif</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:religious_significance</predicate>
+			<object>:Night_Journey</object>
+		</attribute>
+		<file>ImageData/Al_Aqsa_Mosque.jpg</file>
+		<file>ImageData/Al-Aqsa_Mosque2.jpg</file>
+		<file>Textdata/Al-Aqsa_Mosque.html</file>
+		<file>Textdata/Al-Aqsa_Mosque.doc</file>
+	</source>
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Umayyad_Mosque</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Umayyad Mosque@en</value>
+			<value>Moschea Omayyade@it</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:finished_in</predicate>
+			<value>715</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Mosque</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:coordinates</predicate>
+			<value>33.511944, 36.306667</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:located_in</predicate>
+			<object>:Damascus</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:epoch</predicate>
+			<object>:Umayyad_Caliphate</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:commissioned_by</predicate>
+			<object>:al_Walid</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:note</predicate>
+			<value>In 2001, Pope John Paul II visited the mosque. It was the first a pope paid a visit to a mosque@en</value>
+		    <value>Nel 2001, Papa Giovanni Paolo II ha visitato la moschea. E' stata la prima volta che un papa abbia fatto visita ad una moschea@it</value> 
+		</attribute>
+		<attribute>
+			<predicate>demo:type_of_decoration</predicate>
+			<object>:Byzantine_Art</object>
+		</attribute>
+		<file>ImageData/Umayyad_Mosque_Mosaics.jpg</file>
+		<file>ImageData/Umayyad_Mosque-Ablution_fountain.jpg</file>
+		<file>Textdata/Umayyad_Mosque.doc</file>
+		<file>ImageData/Umayyad_Mosquee_pano.jpg</file>
+	</source>
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Great_Mosque_of_Samarra</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Great Mosque of Samarra@en</value>
+			<value>Grande Moschea di Samarra@it</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:beginning_date</predicate>
+			<value>848</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:finished_in</predicate>
+			<value>851</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Mosque</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:coordinates</predicate>
+			<value>34.207222, 43.88</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:located_in</predicate>
+			<object>:Samarra</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:epoch</predicate>
+			<object>:Abbasid_Caliphate</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:commissioned_by</predicate>
+			<object>:al_Mutawakkil</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:description</predicate>
+			<value>The Great Mosque of Samarra was at one time the largest mosque in the world. Its minarets, the Malwiya Tower is a vast spiralling cone 52 meters high and 33 meters wide with a spiral ramp@en</value>
+			<value>La Grande Moschea di Samarra è stata una delle piùgrandi moschee del mondo. Il suo minareto, la Torre Malwiyya è un grande cono a spirale alto 52 matri e largo 33 con una rampa a spirale@it</value>
+		</attribute>
+		<file>ImageData/Great_M_Samarra.jpg</file>
+		<file>ImageData/Spiral_minaret.jpg</file>
+		<file>ImageData/mosque_samarra_big.jpg</file>
+	</source>
+	
+	<!-- PLACES and subclasses -->
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>uri</predicate>
+	      <value>Bologna</value>
+	    </attribute>
+		<attribute>
+	      <predicate>rdfs:label</predicate>
+	      <value>Bologna</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>owl:sameAs</predicate>
+	      <object>http://sws.geonames.org/3181928/</object>
+		  <object>http://dbpedia.org/resource/Bologna</object>
+	    </attribute>
+		<attribute>
+			<predicate>demo:coordinates</predicate>
+			<value>44.4938114812334, 11.3387489318848</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:City</object>
+		</attribute>	
+	</source>
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>uri</predicate>
+	      <value>Jerusalem</value>
+	    </attribute>
+		<attribute>
+	      <predicate>rdfs:label</predicate>
+	      <value>Jerusalem</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>owl:sameAs</predicate>
+	      <object>http://sws.geonames.org/281184/</object>
+		  <object>http://dbpedia.org/resource/Jerusalem</object>
+	    </attribute>
+		<attribute>
+			<predicate>demo:coordinates</predicate>
+			<value>31.779018386012, 35.2253007888794</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:City</object>
+		</attribute>
+	</source>
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>uri</predicate>
+	      <value>Damascus</value>
+	    </attribute>
+		<attribute>
+	      <predicate>rdfs:label</predicate>
+	      <value>Damascus</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>owl:sameAs</predicate>
+	      <object>http://sws.geonames.org/170654/</object>
+		  <object>http://dbpedia.org/resource/Damascus</object>
+	    </attribute>
+		<attribute>
+			<predicate>demo:coordinates</predicate>
+			<value>33.5,36.3</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:City</object>
+		</attribute>
+	</source>
+
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>uri</predicate>
+	      <value>Samarra</value>
+	    </attribute>
+		<attribute>
+	      <predicate>rdfs:label</predicate>
+	      <value>Samarra</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>owl:sameAs</predicate>
+	      <object>http://sws.geonames.org/91597/</object>
+		  <object>http://dbpedia.org/resource/Samarra</object>
+	    </attribute>
+		<attribute>
+			<predicate>demo:coordinates</predicate>
+			<value>34.1958333,43.8758333</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:City</object>
+		</attribute>
+	</source>
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>uri</predicate>
+	      <value>Medina</value>
+	    </attribute>
+		<attribute>
+	      <predicate>rdfs:label</predicate>
+	      <value>Medina</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>owl:sameAs</predicate>
+	      <object>http://sws.geonames.org/109223/</object>
+		  <object>http://dbpedia.org/resource/Medina</object>
+	    </attribute>
+		<attribute>
+			<predicate>demo:coordinates</predicate>
+			<value>24.4686111,39.6141667</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:City</object>
+		</attribute>
+	</source>
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>uri</predicate>
+	      <value>Mecca</value>
+	    </attribute>
+		<attribute>
+	      <predicate>rdfs:label</predicate>
+	      <value>Mecca</value>
+	    </attribute>
+		<attribute>
+      		<predicate>demo:population</predicate>
+      		<value>1,700,000</value>
+    	</attribute>
+		<attribute>
+      		<predicate>demo:density</predicate>
+      		<value>4200 km2</value>
+    	</attribute>
+	    <attribute>
+	      <predicate>owl:sameAs</predicate>
+	      <object>http://sws.geonames.org/104515/</object>
+		  <object>http://dbpedia.org/resource/Mecca</object>
+	    </attribute>
+		<attribute>
+	      <predicate>demo:province</predicate>
+		  <object>http://dbpedia.org/resource/Makkah_Province</object>
+	    </attribute>
+		<attribute>
+			<predicate>demo:coordinates</predicate>
+			<value>21.416667,39.816667</value>
+		</attribute>
+		<attribute>
+			<predicate>dcns:description</predicate>
+			<value>Mecca, also spelled Makkah (Arabic: Makkah Al Mukarramah), is the holiest meeting site in Islam, closely followed by Medina. The city is modern, cosmopolitan and while being closed to non-Muslims, is nonetheless ethnically diverse. Muslim tradition attributes the beginning of Mecca to Ismael's descendants. In the 7th century, the Islamic prophet Muhammad proclaimed Islam in the city which was by then an important trading center. After 966, Mecca was led by local sharifs until 1924 when the Ottoman Empire collapsed and it came under the rule of the Saudis, with the exception of the 1916–1925 period, when it was part of the Hashimite Kingdom of Hejaz. In its modern period, Mecca has seen tremendous expansion in size and infrastructure.
+			The modern day city is the capital of Saudi Arabia's Makkah Province, in the historic Hejaz region. With a population of 1.7 million (2008), the city is located 73 km (45 mi) inland from Jeddah in a narrow valley at a height of 277 m (909 ft) above sea level.</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:City</object>
+		</attribute>
+	</source>
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>uri</predicate>
+	      <value>Istanbul</value>
+	    </attribute>
+		<attribute>
+	      <predicate>rdfs:label</predicate>
+	      <value>Istanbul</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>owl:sameAs</predicate>
+	      <object>http://sws.geonames.org/745044/</object>
+		  <object>http://dbpedia.org/resource/Istanbul</object>
+	    </attribute>
+		<attribute>
+			<predicate>demo:coordinates</predicate>
+			<value>41.0138429552247,28.9496612548828</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:City</object>
+		</attribute>
+	</source>
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>uri</predicate>
+	      <value>Baghdad</value>
+	    </attribute>
+		<attribute>
+	      <predicate>rdfs:label</predicate>
+	      <value>Baghdad</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>owl:sameAs</predicate>
+	      <object>http://sws.geonames.org/98182/</object>
+		  <object>http://dbpedia.org/resource/Baghdad</object>
+	    </attribute>
+		<attribute>
+			<predicate>demo:coordinates</predicate>
+			<value>33.3386111,44.3938889</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:City</object>
+		</attribute>
+	</source>
+
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>uri</predicate>
+	      <value>Rayy</value>
+	    </attribute>
+		<attribute>
+	      <predicate>rdfs:label</predicate>
+	      <value>Rayy</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>owl:sameAs</predicate>
+	      <object>http://sws.geonames.org/286747/</object>
+		  <object>http://dbpedia.org/resource/Rayy</object>
+	    </attribute>
+		<attribute>
+			<predicate>demo:coordinates</predicate>
+			<value>24.6566667,56.1155556</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:City</object>
+		</attribute>
+	</source>
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>uri</predicate>
+	      <value>Mashhad</value>
+	    </attribute>
+		<attribute>
+	      <predicate>rdfs:label</predicate>
+	      <value>Mashhad</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>owl:sameAs</predicate>
+	      <object>http://sws.geonames.org/124665/</object>
+		  <object>http://dbpedia.org/resource/Mashhad</object>
+	    </attribute>
+		<attribute>
+			<predicate>demo:coordinates</predicate>
+			<value>36.2958333,59.6119444</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:City</object>
+		</attribute>
+	</source>
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>uri</predicate>
+	      <value>Taif</value>
+	    </attribute>
+		<attribute>
+	      <predicate>rdfs:label</predicate>
+	      <value>Taif</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>owl:sameAs</predicate>
+	      <object>http://sws.geonames.org/107968/</object>
+		  <object>http://dbpedia.org/resource/Taif</object>
+	    </attribute>
+		<attribute>
+			<predicate>demo:coordinates</predicate>
+			<value>21.2702778,40.4158333</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:City</object>
+		</attribute>
+	</source>
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>uri</predicate>
+	      <value>Florence</value>
+	    </attribute>
+		<attribute>
+	      <predicate>rdfs:label</predicate>
+	      <value>Florence</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>owl:sameAs</predicate>
+	      <object>http://sws.geonames.org/3176959/</object>
+		  <object>http://dbpedia.org/resource/Florence</object>
+	    </attribute>
+		<attribute>
+			<predicate>demo:coordinates</predicate>
+			<value>43.7666667,11.25</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:City</object>
+		</attribute>
+	</source>
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>uri</predicate>
+	      <value>Ravenna</value>
+	    </attribute>
+		<attribute>
+	      <predicate>rdfs:label</predicate>
+	      <value>Ravenna</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>owl:sameAs</predicate>
+	      <object>http://sws.geonames.org/3169561/</object>
+		  <object>http://dbpedia.org/resource/Ravenna</object>
+	    </attribute>
+		<attribute>
+			<predicate>demo:coordinates</predicate>
+			<value>44.4175,12.2011111</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:City</object>
+		</attribute>
+	</source>
+
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>uri</predicate>
+	      <value>Modena</value>
+	    </attribute>
+		<attribute>
+	      <predicate>rdfs:label</predicate>
+	      <value>Modena</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>owl:sameAs</predicate>
+	      <object>http://sws.geonames.org/3173331/</object>
+		  <object>http://dbpedia.org/resource/Modena</object>
+	    </attribute>
+		<attribute>
+			<predicate>demo:coordinates</predicate>
+			<value>44.6478340072451,10.9253883361816</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:City</object>
+		</attribute>
+	</source>
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>uri</predicate>
+	      <value>Al-Sinnabra</value>
+	    </attribute>
+		<attribute>
+	      <predicate>rdfs:label</predicate>
+	      <value>Al-Sinnabra</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>dcns:description</predicate>
+	      <value>Al-Sinnabra is the Arabic place name for a site identified with the tell of Khirbat al-Karak (Beth Yerah), situated on the southern shore of the Sea of Galilee in modern day Israel.@en</value>
+	    </attribute>
+		<attribute>
+			<predicate>demo:coordinates</predicate>
+			<value>32.716667,35.566667</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Historical_place</object>
+		</attribute>
+	</source>
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>uri</predicate>
+	      <value>Haram_al_Sharif</value>
+	    </attribute>
+		<attribute>
+	      <predicate>rdfs:label</predicate>
+	      <value>Haram ash-Sharif</value>
+	    </attribute>
+	    <attribute>
+	      <predicate>dcns:description</predicate>
+	      <value>The site that includes the Al-Aqsa mosque (along with the Dome of the Rock) is also referred to as al-Haram ash-Sharif or "Sacred Noble Sanctuary", a site also known as the Temple Mount, the holiest site in Judaism, the place where the First and Second Temples are generally accepted to have stood.@en</value>
+	    </attribute>
+		<attribute>
+			<predicate>demo:coordinates</predicate>
+			<value>31.777611,35.2355</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Historical_place</object>
+		</attribute>
+	</source>
+	
+	<!-- Art style & Artistic Medium -->
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Byzantine_art</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Byzantine art@en</value>
+			<value>Arte Bizantina@it</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:beginning_date</predicate>
+			<value>705</value>
+		</attribute>
+		<attribute></predicate>
+			<value>1300</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:end_date</predicate>
+			<value>1453</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Style_of_art</object>
+		</attribute>
+		<file>ImageData/Umayyad_Mosque_Mosaics.jpg</file>
+		<file>ImageData/Dome_of_the_rock_mosaics.jpg</file>
+		<file>ImageData/Hagiasophia.jpg</file>
+	</source>
+
+<!--	
+	<source>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Mosaic</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Mosaic@en</value>
+			<value>Mosaico@it</value>
+		</attribute>
+		<attribute>
+			<predicate>dcns:description</predicate>
+			<value>Mosaic is the art of creating images with an assemblage of small pieces of colored glass, stone, or other materials. It may be a technique of decorative art, an aspect of interior decoration, or of cultural and spiritual significance as in a cathedral. Small pieces, normally roughly cubic, of stone or glass of different colors, known as tesserae, (diminutive tessellae), are used to create a pattern or picture.@en</value>
+			<value>Il mosaico è una composizione pittorica ottenuta mediante l'utilizzo di frammenti di materiali (tessere) di diversa natura e colore (pietre, vetro, conchiglie), che può essere decorata con oro e pietre preziose.@it</value>
+		</attribute>
+	</source>
+
+	<source>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Fresco</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Fresco@en</value>
+			<value>Affresco@it</value>
+		</attribute>
+		<attribute>
+			<predicate>dcns:description</predicate>
+			<value>Fresco (plural either frescos or frescoes) is any of several related mural painting types, done on plaster on walls or ceilings. The word fresco comes from the Italian word affresco [afˈfresːko] which derives from the Germanic-derived adjective frisch ("fresh"). Frescoes were often made during the Renaissance and other early time periods.@en</value>
+			<value>L'affresco è una pittura eseguita su intonaco, appunto ancora fresco, di una parete: il colore ne è chimicamente incorporato e conservato per un tempo illimitato.@it</value>
+		</attribute>
+	</source>
+-->	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>San_Petronio_Fresco</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Fresco in San Petronio's Church@en</value>
+			<value>Affresco nella Chiesa di San Petronio@it</value>
+		</attribute>
+		<attribute>
+			<predicate>dcns:creator</predicate>
+			<object>Giovanni_da_Modena</object>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Fresco</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:city</predicate>
+			<value>Bologna</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:inspired_by</predicate>
+			<object>:Divine_Comedy</object>
+		</attribute>
+		<file>ImageData/san_petronio_fresco.jpg</file>
+	</source>
+	
+	<!-- TEMPORAL ENTITIES: events, epochs -->
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Night_Journey</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Night Journey</value>
+			<value>Isra' e Mi'raj</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:date</predicate>
+			<value>621</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Event</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:participant</predicate>
+			<object>:Prophet_Mohammad</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:participant</predicate>
+			<object>:Buraq</object>
+		</attribute>
+		<file>ImageData/Night_Journey_Paradise.jpg</file>
+		<file>ImageData/Night_Journey_Hell.jpg</file>
+		<file>Textdata/The_night_journey.doc</file>
+	</source>
+	
+<source>
+	<attribute>
+      <predicate>type</predicate>
+      <value>TaliaCore::Source</value>
+    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Umayyad_Caliphate</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Umayyad Caliphate@en</value>
+			<value>Califfato Omayyade@it</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:beginning_date</predicate>
+			<value>661</value>
+		</attribute>
+		<attribute>
+		<predicate>demo:finished_in</predicate>
+			<value>750</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:following_empire</predicate>
+			<object>:Abbasid_caliphate</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:capital</predicate>
+			<object>Damascus</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:ruler</predicate>
+			<object>:Abd_al_Malik</object>
+			<object>:al_Walid</object>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Empire</object>
+		</attribute>
+		<file>ImageData/Umayyad_Caliphate.png</file>
+		<file>Textdata/Umayyad_Caliphate.doc</file>
+	</source>
+	
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Rashidun_Caliphate</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Rashidun Caliphate@en</value>
+			<value>Rightly-Guided Caliphate@en</value>
+			<value>Califfato dei Ben Guidati@it</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:beginning_date</predicate>
+			<value>632</value>
+		</attribute>
+		<attribute>
+		<predicate>demo:finished_in</predicate>
+			<value>661</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:following_empire</predicate>
+			<object>:Ummayad_Caliphate</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:capital</predicate>
+			<object>:Medina</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:ruler</predicate>
+			<value>:Abu_Bakr</value>
+			<value>:Umar</value>
+			<value>:Othman</value>
+		</attribute>
+		<attribute>
+			<predicate>dcns:description</predicate>
+			<value>The Rashidun Caliphate, compromising the first four caliphs in Islam's history was founded after Mohammad's death in 632@en</value>
+			<value>Il Califfato dei Rashidun, che comprende i primi quattro califfi nella storia dell'Islam è stato fondato alla morte del profeta nel 632@it</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Empire</object>
+		</attribute>
+	</source>
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Abbasid_Caliphate</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Abbasid Caliphate@en</value>
+			<value>Califfato Abbaside@it</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:beginning_date</predicate>
+			<value>750</value>
+		</attribute>
+		<attribute>
+		<predicate>demo:finished_in</predicate>
+			<value>1258</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:following_empire</predicate>
+			<object>:Ottoman_Empire</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:capital</predicate>
+			<object>:Baghdad</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:ruler</predicate>
+			<object>:Harun_al_Rashid</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:has_built</predicate>
+			<object>:Great_Mosque_of_Samarra</object>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Empire</object>
+		</attribute>
+		<file>ImageData/Abbasid_Caliphate.png</file>
+		<file>Textdata/Abbasid_Caliphate.doc</file>
+	</source>
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Ottoman_Empire</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Ottoman Empire@en</value>
+			<value>Impero Ottomano@it</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:beginning_date</predicate>
+			<value>1299</value>
+		</attribute>
+		<attribute>
+		<predicate>demo:finished_in</predicate>
+			<value>1923</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:capital</predicate>
+			<object>Istanbul</object>
+		</attribute>
+		<attribute>
+			<predicate>dcns:description</predicate>
+			<value>At the height of its power the Ottoman Empire spanned three continents, controlling much of Southeastern Europe, Western Asia and North Africa@en</value>
+			<value>Al culmine della sulla grandezza l'Impero Ottomano si espandeva su tre continenti controllando lamaggiorparte dell'Europa suorientale, l'Asia occidentale e il North Africa@it</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Empire</object>
+		</attribute>
+		<file>ImageData/Ottoman_Empire.png</file>
+	</source>
+
+<!-- Religious figure -->
+
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Buraq</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Buraq</value>
+		</attribute>
+		<attribute>	
+			<predicate>dcns:description</predicate>
+			<value>mythological steed that carried Prophet Mohammad from the Sacred Mosque in Mecca to al-Aqsa Mosque in Jerusalem@en</value>
+			<value>cavalcatura misteriosa che condusse il Profeta Mohammad dalla Sacra Moschea della Mecca alla Moschea al-Aqsa@it</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Religious_Figure</object>
+		</attribute>
+		<file>ImageData/al_Buraq.jpg</file>
+	</source>
+	
+<!-- BOOK -->
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Divine_Comedy</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Divine Comedy@en</value>
+			<value>Divina Commedia@it</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:author</predicate>
+			<value>:Dante_Alighieri</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Book</object>
+		</attribute>
+	</source>
+	
+	
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>Quran</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Qur'an@en</value>
+			<value>Corano@it</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:author</predicate>
+			<object>:Prophet_Mohammad</object>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Book</object>
+		</attribute>
+		<attribute>
+			<predicate>dcns:description</predicate>
+			<value>The Qur'an is the central religious text of Islam. Islam holds that the Qur'an was revealed from Allah to Mohammad verbally through the angel Gabriel@en</value>
+		    <value>Il Corano è il principale testo religioso dell'Islam. La tradizione islamiche ritiene che sia stato rivelato da Allah a Maomettoattraverso l'arcangelo Gabriele@it</value>
+		</attribute>
+		<file>ImageData/Quran.jpg</file>
+	</source>	
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>quran_page_3435</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Qur'an edition xyz page 34-35@en</value>
+			<value>Corano edizione xyz pagina 34-35@it</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:author</predicate>
+			<object>:Prophet_Mohammad</object>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Manuscript</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:has_transcription</predicate>
+			<object>:transcription_quran_page_3435</object>
+		</attribute>
+		<attribute>
+			<predicate>dcns:description</predicate>
+			<value>The Qur'an is the central religious text of Islam. Islam holds that the Qur'an was revealed from Allah to Mohammad verbally through the angel Gabriel@en</value>
+		    <value>Il Corano è il principale testo religioso dell'Islam. La tradizione islamiche ritiene che sia stato rivelato da Allah a Maomettoattraverso l'arcangelo Gabriele@it</value>
+		</attribute>
+		<file>ImageData/quran1.jpg</file>
+	</source>
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>transcription_quran_page_3435</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Transcription of Qur'an edition xyz page 34-35@en</value>
+			<value>Trascrizione di Corano edizione xyz pagina 34-35@it</value>
+		</attribute>
+		<attribute>
+			<predicate>dcns:creator</predicate>
+			<value>Michele Barbera</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Transcription</object>
+		</attribute>
+		<attribute>
+			<predicate>dcns:description</predicate>
+			<value>This is a linear transcription of page xx of the edition xyz@en</value>
+		    <value>Trascrizione lineare della pagina xx dell'edizione xyz @it</value>
+		</attribute>
+		<file>Textdata/quran1_trascr.html</file>
+	</source>
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaCore::Source</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>One_1000_and_1_Night</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>One thousand and one night@en</value>
+			<value>Le mille e una notte@it</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Book</object>
+		</attribute>
+		<attribute>
+			<predicate>dcns:description</predicate>
+			<value>It is a collection of Middle Eastern and South Asian Stories and folk tales compiled in Arabic during the Islamic Golden Age@en</value>
+			<value>é una collezione di racconti e novelle provenientidal Medio Oriente e dall'Asia Meridionale scritta in arabo durante il l'Età d'Oro Islamica@it</value>
+		</attribute>	
+		<attribute>
+		<file>ImageData/Arabian_nights_manuscript.jpg</file>
+		</attribute>
+	</source>
+</sources>
+	
+	
+	
+	
+	
+	
