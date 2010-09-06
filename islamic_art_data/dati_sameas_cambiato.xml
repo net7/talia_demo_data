@@ -678,8 +678,8 @@
 	    </attribute>
 	    <attribute>
 	      <predicate>owl:sameAs</predicate>
-	      <object>http://sws.geonames.org/3181928/</object>
-		  <object>http://dbpedia.org/resource/Bologna</object>
+	      <value>http://sws.geonames.org/3181928/</value>
+		  <value>http://dbpedia.org/resource/Bologna</value>
 	    </attribute>
 		<attribute>
 			<predicate>demo:coordinates</predicate>
@@ -706,8 +706,8 @@
 	    </attribute>
 	    <attribute>
 	      <predicate>owl:sameAs</predicate>
-	      <object>http://sws.geonames.org/281184/</object>
-		  <object>http://dbpedia.org/resource/Jerusalem</object>
+	      <value>http://sws.geonames.org/281184/</value>
+		  <value>http://dbpedia.org/resource/Jerusalem</value>
 	    </attribute>
 		<attribute>
 			<predicate>demo:coordinates</predicate>
@@ -734,8 +734,8 @@
 	    </attribute>
 	    <attribute>
 	      <predicate>owl:sameAs</predicate>
-	      <object>http://sws.geonames.org/170654/</object>
-		  <object>http://dbpedia.org/resource/Damascus</object>
+	      <value>http://sws.geonames.org/170654/</value>
+		  <value>http://dbpedia.org/resource/Damascus</value>
 	    </attribute>
 		<attribute>
 			<predicate>demo:coordinates</predicate>
@@ -762,8 +762,8 @@
 	    </attribute>
 	    <attribute>
 	      <predicate>owl:sameAs</predicate>
-	      <object>http://sws.geonames.org/91597/</object>
-		  <object>http://dbpedia.org/resource/Samarra</object>
+	      <value>http://sws.geonames.org/91597/</value>
+		  <value>http://dbpedia.org/resource/Samarra</value>
 	    </attribute>
 		<attribute>
 			<predicate>demo:coordinates</predicate>
@@ -790,8 +790,8 @@
 	    </attribute>
 	    <attribute>
 	      <predicate>owl:sameAs</predicate>
-	      <object>http://sws.geonames.org/109223/</object>
-		  <object>http://dbpedia.org/resource/Medina</object>
+	      <value>http://sws.geonames.org/109223/</value>
+		  <value>http://dbpedia.org/resource/Medina</value>
 	    </attribute>
 		<attribute>
 			<predicate>demo:coordinates</predicate>
@@ -826,8 +826,8 @@
     	</attribute>
 	    <attribute>
 	      <predicate>owl:sameAs</predicate>
-	      <object>http://sws.geonames.org/104515/</object>
-		  <object>http://dbpedia.org/resource/Mecca</object>
+	      <value>http://sws.geonames.org/104515/</value>
+		  <value>http://dbpedia.org/resource/Mecca</value>
 	    </attribute>
 		<attribute>
 	      <predicate>demo:province</predicate>
@@ -863,8 +863,8 @@
 	    </attribute>
 	    <attribute>
 	      <predicate>owl:sameAs</predicate>
-	      <object>http://sws.geonames.org/745044/</object>
-		  <object>http://dbpedia.org/resource/Istanbul</object>
+	      <value>http://sws.geonames.org/745044/</value>
+		  <value>http://dbpedia.org/resource/Istanbul</value>
 	    </attribute>
 		<attribute>
 			<predicate>demo:coordinates</predicate>
@@ -891,8 +891,8 @@
 	    </attribute>
 	    <attribute>
 	      <predicate>owl:sameAs</predicate>
-	      <object>http://sws.geonames.org/98182/</object>
-		  <object>http://dbpedia.org/resource/Baghdad</object>
+	      <value>http://sws.geonames.org/98182/</value>
+		  <value>http://dbpedia.org/resource/Baghdad</value>
 	    </attribute>
 		<attribute>
 			<predicate>demo:coordinates</predicate>
@@ -919,8 +919,8 @@
 	    </attribute>
 	    <attribute>
 	      <predicate>owl:sameAs</predicate>
-	      <object>http://sws.geonames.org/286747/</object>
-		  <object>http://dbpedia.org/resource/Rayy</object>
+	      <value>http://sws.geonames.org/286747/</value>
+		  <value>http://dbpedia.org/resource/Rayy</value>
 	    </attribute>
 		<attribute>
 			<predicate>demo:coordinates</predicate>
@@ -947,8 +947,8 @@
 	    </attribute>
 	    <attribute>
 	      <predicate>owl:sameAs</predicate>
-	      <object>http://sws.geonames.org/124665/</object>
-		  <object>http://dbpedia.org/resource/Mashhad</object>
+	      <value>http://sws.geonames.org/124665/</value>
+		  <value>http://dbpedia.org/resource/Mashhad</value>
 	    </attribute>
 		<attribute>
 			<predicate>demo:coordinates</predicate>
@@ -975,8 +975,8 @@
 	    </attribute>
 	    <attribute>
 	      <predicate>owl:sameAs</predicate>
-	      <object>http://sws.geonames.org/107968/</object>
-		  <object>http://dbpedia.org/resource/Taif</object>
+	      <value>http://sws.geonames.org/107968/</value>
+		  <value>http://dbpedia.org/resource/Taif</value>
 	    </attribute>
 		<attribute>
 			<predicate>demo:coordinates</predicate>
@@ -1003,8 +1003,8 @@
 	    </attribute>
 	    <attribute>
 	      <predicate>owl:sameAs</predicate>
-	      <object>http://sws.geonames.org/3176959/</object>
-		  <object>http://dbpedia.org/resource/Florence</object>
+	      <value>http://sws.geonames.org/3176959/</value>
+		  <value>http://dbpedia.org/resource/Florence</value>
 	    </attribute>
 		<attribute>
 			<predicate>demo:coordinates</predicate>
@@ -1031,8 +1031,8 @@
 	    </attribute>
 	    <attribute>
 	      <predicate>owl:sameAs</predicate>
-	      <object>http://sws.geonames.org/3169561/</object>
-		  <object>http://dbpedia.org/resource/Ravenna</object>
+	      <value>http://sws.geonames.org/3169561/</value>
+		  <value>http://dbpedia.org/resource/Ravenna</value>
 	    </attribute>
 		<attribute>
 			<predicate>demo:coordinates</predicate>
@@ -1059,8 +1059,8 @@
 	    </attribute>
 	    <attribute>
 	      <predicate>owl:sameAs</predicate>
-	      <object>http://sws.geonames.org/3173331/</object>
-		  <object>http://dbpedia.org/resource/Modena</object>
+	      <value>http://sws.geonames.org/3173331/</value>
+		  <value>http://dbpedia.org/resource/Modena</value>
 	    </attribute>
 		<attribute>
 			<predicate>demo:coordinates</predicate>
@@ -1295,7 +1295,7 @@
 		</attribute>
 		<attribute>
 			<predicate>demo:capital</predicate>
-			<object>Damascus</object>
+			<object>:Damascus</object>
 		</attribute>
 		<attribute>
 			<predicate>demo:ruler</predicate>
