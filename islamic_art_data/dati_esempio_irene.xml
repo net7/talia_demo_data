@@ -15,7 +15,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -56,7 +56,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -92,7 +92,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -140,7 +140,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -187,7 +187,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -220,7 +220,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -264,7 +264,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -312,7 +312,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -360,7 +360,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -406,7 +406,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -453,7 +453,7 @@
 <source>
 	<attribute>
       <predicate>type</predicate>
-      <value>TaliaCore::Source</value>
+      <value>TaliaSource</value>
     </attribute>
 	<attribute>
 		<predicate>uri</predicate>
@@ -506,7 +506,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -559,7 +559,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -612,7 +612,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -666,7 +666,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 	    <attribute>
 	      <predicate>uri</predicate>
@@ -694,7 +694,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 	    <attribute>
 	      <predicate>uri</predicate>
@@ -722,7 +722,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 	    <attribute>
 	      <predicate>uri</predicate>
@@ -750,7 +750,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 	    <attribute>
 	      <predicate>uri</predicate>
@@ -778,7 +778,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 	    <attribute>
 	      <predicate>uri</predicate>
@@ -806,7 +806,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 	    <attribute>
 	      <predicate>uri</predicate>
@@ -851,7 +851,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 	    <attribute>
 	      <predicate>uri</predicate>
@@ -879,7 +879,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 	    <attribute>
 	      <predicate>uri</predicate>
@@ -907,7 +907,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 	    <attribute>
 	      <predicate>uri</predicate>
@@ -935,7 +935,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 	    <attribute>
 	      <predicate>uri</predicate>
@@ -963,7 +963,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 	    <attribute>
 	      <predicate>uri</predicate>
@@ -991,7 +991,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 	    <attribute>
 	      <predicate>uri</predicate>
@@ -1019,7 +1019,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 	    <attribute>
 	      <predicate>uri</predicate>
@@ -1047,7 +1047,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 	    <attribute>
 	      <predicate>uri</predicate>
@@ -1075,7 +1075,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 	    <attribute>
 	      <predicate>uri</predicate>
@@ -1102,7 +1102,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 	    <attribute>
 	      <predicate>uri</predicate>
@@ -1131,7 +1131,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -1200,7 +1200,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -1235,7 +1235,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -1270,7 +1270,7 @@
 <source>
 	<attribute>
       <predicate>type</predicate>
-      <value>TaliaCore::Source</value>
+      <value>TaliaSource</value>
     </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -1314,7 +1314,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -1362,7 +1362,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -1408,7 +1408,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -1448,7 +1448,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -1475,7 +1475,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -1501,7 +1501,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -1531,7 +1531,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -1565,7 +1565,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
@@ -1595,7 +1595,7 @@
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
-	      <value>TaliaCore::Source</value>
+	      <value>TaliaSource</value>
 	    </attribute>
 		<attribute>
 			<predicate>uri</predicate>
