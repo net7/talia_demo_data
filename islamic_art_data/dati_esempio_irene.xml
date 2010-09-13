@@ -1083,7 +1083,7 @@
 			<predicate>rdf:type</predicate>
 			<object>demo:City</object>
 		</attribute>
-		<file>Textfile/Modena-wikipedia.html</file>
+		<file>Textdata/Modena-wikipedia.html</file>
 	</source>
 
 	<source>
