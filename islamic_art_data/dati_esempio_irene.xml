@@ -1160,7 +1160,8 @@
 			<predicate>demo:beginning_date</predicate>
 			<value>705</value>
 		</attribute>
-		<attribute></predicate>
+		<attribute>
+		        <predicate>demo:finished_in</predicate>
 			<value>1300</value>
 		</attribute>
 		<attribute>
