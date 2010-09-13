@@ -50,6 +50,7 @@
 			<predicate>rdf:type</predicate>
 			<object>demo:Caliph</object>
 		</attribute>
+		<file>Textdata/Abd_al-Malik_ibn_Marwan-wikipedia.html</file>
 	</source>
 
 
@@ -135,6 +136,7 @@
 			<predicate>rdf:type</predicate>
 			<object>demo:Person</object>
 		</attribute>
+		<file>Textdata/Muhammad-wikipedia.html</file>
 	</source>
 
 	<source>
@@ -179,9 +181,9 @@
 			<predicate>demo:cited_in</predicate>
 			<object>:One_1000_and_1_Night</object>
 		</attribute>
-		<attribute>
 		<file>ImageData/Harun_al_Rashid.jpg</file>
-		</attribute>
+		<file>Textdata/Harun_al_Rashid-wikipedia.html</file>
+
 	</source>
 
 	<source>
@@ -259,8 +261,9 @@
 			<predicate>demo:companion</predicate>
 			<object>:Prophet_Mohammad</object>
 		</attribute>
+		<file>Textdata/Abu_Bakr-wikipedia.html</file>
 	</source>
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -446,6 +449,7 @@
 			<predicate>demo:author_of</predicate>
 			<object>:San_Petronio_Fresco</object>
 		</attribute>
+		<file>Textdata/Bologna-wikipedia.html</file>
 	</source>
 
 <!-- Sanctuary and subclasses -->
@@ -555,7 +559,7 @@
 		<file>Textdata/Al-Aqsa_Mosque.html</file>
 		<file>Textdata/Al-Aqsa_Mosque.doc</file>
 	</source>
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -608,7 +612,7 @@
 		<file>Textdata/Umayyad_Mosque.doc</file>
 		<file>ImageData/Umayyad_Mosquee_pano.jpg</file>
 	</source>
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -659,10 +663,11 @@
 		<file>ImageData/Great_M_Samarra.jpg</file>
 		<file>ImageData/Spiral_minaret.jpg</file>
 		<file>ImageData/mosque_samarra_big.jpg</file>
+		<file>Textdata/Great_Mosque_of_Samarra-wikipedia.html</file>
 	</source>
-	
+
 	<!-- PLACES and subclasses -->
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -690,7 +695,7 @@
 			<object>demo:City</object>
 		</attribute>	
 	</source>
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -717,8 +722,9 @@
 			<predicate>rdf:type</predicate>
 			<object>demo:City</object>
 		</attribute>
+		<file>Textdata/Jerusalem-wikipedia.html</file>
 	</source>
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -745,6 +751,7 @@
 			<predicate>rdf:type</predicate>
 			<object>demo:City</object>
 		</attribute>
+		<file>Textdata/Damascus-wikipedia.html</file>
 	</source>
 
 	<source>
@@ -774,7 +781,7 @@
 			<object>demo:City</object>
 		</attribute>
 	</source>
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -801,8 +808,9 @@
 			<predicate>rdf:type</predicate>
 			<object>demo:City</object>
 		</attribute>
+		<file>Textdata/Medina-wikipedia.html</file>
 	</source>
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -847,7 +855,7 @@
 			<object>demo:City</object>
 		</attribute>
 	</source>
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -874,8 +882,10 @@
 			<predicate>rdf:type</predicate>
 			<object>demo:City</object>
 		</attribute>
+		<file>Textdata/Istanbul-wikipedia.html</file>
+
 	</source>
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -902,6 +912,7 @@
 			<predicate>rdf:type</predicate>
 			<object>demo:City</object>
 		</attribute>
+		<file>Textdata/Baghdad-wikipedia.html</file>
 	</source>
 
 	<source>
@@ -931,7 +942,7 @@
 			<object>demo:City</object>
 		</attribute>
 	</source>
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -958,8 +969,9 @@
 			<predicate>rdf:type</predicate>
 			<object>demo:City</object>
 		</attribute>
+		<file>Textdata/Mashhad-wikipedia.html</file>
 	</source>
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -987,7 +999,7 @@
 			<object>demo:City</object>
 		</attribute>
 	</source>
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -1014,8 +1026,9 @@
 			<predicate>rdf:type</predicate>
 			<object>demo:City</object>
 		</attribute>
+		<file>Textdata/Florence-wikipedia.html</file>
 	</source>
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -1070,8 +1083,9 @@
 			<predicate>rdf:type</predicate>
 			<object>demo:City</object>
 		</attribute>
+		<file>Textfile/Modena-wikipedia.html</file>
 	</source>
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -1098,7 +1112,7 @@
 			<object>demo:Historical_place</object>
 		</attribute>
 	</source>
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -1125,9 +1139,9 @@
 			<object>demo:Historical_place</object>
 		</attribute>
 	</source>
-	
+
 	<!-- Art style & Artistic Medium -->
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -1160,6 +1174,10 @@
 		<file>ImageData/Umayyad_Mosque_Mosaics.jpg</file>
 		<file>ImageData/Dome_of_the_rock_mosaics.jpg</file>
 		<file>ImageData/Hagiasophia.jpg</file>
+		
+		<!-- Abstract from wikipedia-->
+		<file>Textdata/ByzantineArt-wikipedia.html</file>
+		
 	</source>
 
 <!--	
@@ -1229,9 +1247,9 @@
 		</attribute>
 		<file>ImageData/san_petronio_fresco.jpg</file>
 	</source>
-	
+
 	<!-- TEMPORAL ENTITIES: events, epochs -->
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -1266,7 +1284,7 @@
 		<file>ImageData/Night_Journey_Hell.jpg</file>
 		<file>Textdata/The_night_journey.doc</file>
 	</source>
-	
+
 <source>
 	<attribute>
       <predicate>type</predicate>
@@ -1309,8 +1327,8 @@
 		<file>ImageData/Umayyad_Caliphate.png</file>
 		<file>Textdata/Umayyad_Caliphate.doc</file>
 	</source>
-	
-	
+
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -1358,7 +1376,7 @@
 			<object>demo:Empire</object>
 		</attribute>
 	</source>
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -1403,8 +1421,9 @@
 		</attribute>
 		<file>ImageData/Abbasid_Caliphate.png</file>
 		<file>Textdata/Abbasid_Caliphate.doc</file>
+		<file>Textdata/Abbasid-wikipedia.html</file>
 	</source>
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -1441,6 +1460,7 @@
 			<object>demo:Empire</object>
 		</attribute>
 		<file>ImageData/Ottoman_Empire.png</file>
+		<file>Textdata/Ottoman_Empire-wikipedia.html</file>
 	</source>
 
 <!-- Religious figure -->
@@ -1469,9 +1489,9 @@
 		</attribute>
 		<file>ImageData/al_Buraq.jpg</file>
 	</source>
-	
+
 <!-- BOOK -->
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -1494,10 +1514,11 @@
 			<predicate>rdf:type</predicate>
 			<object>demo:Book</object>
 		</attribute>
+		<file>Textdata/Divine_Comedy-wikipedia.html</file>
 	</source>
-	
-	
-	
+
+
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -1527,7 +1548,7 @@
 		</attribute>
 		<file>ImageData/Quran.jpg</file>
 	</source>	
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -1561,7 +1582,7 @@
 		</attribute>
 		<file>ImageData/quran1.jpg</file>
 	</source>
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -1591,7 +1612,7 @@
 		</attribute>
 		<file>Textdata/quran1_trascr.html</file>
 	</source>
-	
+
 	<source>
 		<attribute>
 	      <predicate>type</predicate>
@@ -1615,14 +1636,7 @@
 			<value>It is a collection of Middle Eastern and South Asian Stories and folk tales compiled in Arabic during the Islamic Golden Age@en</value>
 			<value>é una collezione di racconti e novelle provenientidal Medio Oriente e dall'Asia Meridionale scritta in arabo durante il l'Età d'Oro Islamica@it</value>
 		</attribute>	
-		<attribute>
 		<file>ImageData/Arabian_nights_manuscript.jpg</file>
-		</attribute>
+		<file>Textdata/One_Thousand_and_One_Nights-wikipedia.html</fie>
 	</source>
 </sources>
-	
-	
-	
-	
-	
-	
