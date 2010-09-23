@@ -1640,4 +1640,72 @@
 		<file>ImageData/Arabian_nights_manuscript.jpg</file>
 		<file>Textdata/One_Thousand_and_One_Nights-wikipedia.html</fie>
 	</source>
+	
+	<source>
+		<attribute>
+	      <predicate>type</predicate>
+	      <value>TaliaSource</value>
+	    </attribute>
+		<attribute>
+			<predicate>uri</predicate>
+			<value>zad_al-ma_ad</value>
+		</attribute>
+		<attribute>
+			<predicate>rdfs:label</predicate>
+			<value>Page 2 of Zād al-maʽād@en</value>
+			<value>Pagina 2 di Zād al-maʽād@it</value>
+		</attribute>
+		<attribute>
+			<predicate>dcns:creator</predicate>
+			<value>Muḥammad Bāqir ibn Muḥammad Taqī</value>
+		</attribute>
+		<attribute>
+			<predicate>rdf:type</predicate>
+			<object>demo:Manuscript</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:copyist</predicate>
+			<value>ʽAlā' al-Iṣfahānī</value>
+		</attribute>
+		<attribute>
+			<predicate>dcns:subject</predicate>
+			<value>Religious duties@en</value>
+			<value>Doveri religiosi@it</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:writing_material</predicate>
+			<object>http://dbpedia.org/resource/Paper</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:writing_material_colour</predicate>
+			<object>http://dbpedia.org/resource/White</object>
+		</attribute>
+		<attribute>
+			<predicate>demo:writing_material_state_of_preservation</predicate>
+			<value>thick; very smooth; laid pattern; slight dirt, ink and water stains; loss of catchwords beneath the text block due to trimming of the paper@en</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:phisycal_dimensions</predicate>
+			<value>21.9 x 14.1 cm</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:binding_material</predicate>
+			<value>Persian lacquer binding with a flower bouquet as central motif; doublures of red lacquer with gold floral pattern@en</value>
+		</attribute>
+		<attribute>
+			<predicate>dcns:description</predicate>
+			<value>Shiite work divided into fourteen chapters (bāb) and closing words (ḫātimah) dealing with the religious actions (especially prayers, that should be done during each month and holiday), with the funeral rules, the institution of zakāh and khums, constant devotion to God and acts of pentance according to the traditions of the prophet, the imams and Shiite scholars with explanations of the author being introduced by the words al-mu’allif (mī)gūyad. The Zād al-maʽād, being an excerpt translated into Persian from al-Majlisī's Biḥar al-anwār,was written during the reign of Shāh Sultān Ḥusayn al-Mūsāwī al-Ḥusaynī al-Ṣafawī Bahādur Khān (d. 1135/1722; s. f. 2r; EI2 VIII/771)@en</value>
+		</attribute>
+		<attribute>
+			<predicate>demo:cites</predicate>
+			<object>:Prophet_Mohammad</object>
+		</attribute>
+		<attribute>
+			<predicate>discovery:Concept</predicate>
+			<object>http://dbpedia.org/page/Invocation</object>
+		</attribute>
+		<file>ImageData/zad_al-ma_ad.tiff</file>
+	</source>
+	
+	
 </sources>
