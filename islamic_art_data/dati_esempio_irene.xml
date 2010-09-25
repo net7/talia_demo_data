@@ -653,7 +653,7 @@
 		</attribute>
 		<attribute>
 			<predicate>demo:commissioned_by</predicate>
-			<object>:al_Mutawakkil</object>
+			<object>:Al_Mutawakkil</object>
 		</attribute>
 		<attribute>
 			<predicate>demo:description</predicate>
@@ -1314,7 +1314,7 @@
 		</attribute>
 		<attribute>
 			<predicate>demo:capital</predicate>
-			<object>Damascus</object>
+			<object>:Damascus</object>
 		</attribute>
 		<attribute>
 			<predicate>demo:ruler</predicate>
