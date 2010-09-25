@@ -140,33 +140,23 @@
   <rdf:Property rdf:about="http://ontologies.muruca.org/demo3#predecessor">
     <rdfs:label xml:lang="en">Predecessor</rdfs:label>
     <rdfs:label xml:lang="it">Predecessore</rdfs:label>
-    <rdfs:range rdf:resource="http://ontologies.muruca.org/demo3#Caliph"/>
-    <rdfs:domain rdf:resource="http://ontologies.muruca.org/demo3#Caliph"/>
   </rdf:Property>
   <rdf:Property rdf:about="http://ontologies.muruca.org/demo3#commissioned_by">
     <rdfs:label xml:lang="it">Commissionato da</rdfs:label>
     <rdfs:label xml:lang="en">Commissioned by</rdfs:label>
-	<rdfs:range rdf:resource="http://ontologies.muruca.org/demo3#Person"/>
-	<rdfs:range rdf:resource="http://ontologies.muruca.org/demo3#Empire"/>
   </rdf:Property>
   <rdf:Property rdf:about="http://ontologies.muruca.org/demo3#capital">
-	<rdfs:range rdf:resource="http://www.geonames.org/ontology#Country"/>
-	<rdfs:range rdf:resource="http://ontologies.muruca.org/demo3#Empire"/>
     <rdfs:label xml:lang="it">Capitale</rdfs:label>
     <rdfs:label xml:lang="en">Capital</rdfs:label>
   </rdf:Property>
   <rdf:Property rdf:about="http://ontologies.muruca.org/demo3#birthplace">
-    <rdfs:domain rdf:resource="http://ontologies.muruca.org/demo3#Person"/>
     <rdfs:label xml:lang="it">Luogo di nascita</rdfs:label>
     <rdfs:label xml:lang="en">Place of bith</rdfs:label>
   </rdf:Property>
   <rdf:Property rdf:about="http://ontologies.muruca.org/demo3#decoration_type">
-	<rdfs:domain rdf:resource="http://ontologies.muruca.org/demo3#Sanctuary"/>
-	<rdfs:domain rdf:resource="http://ontologies.muruca.org/demo3#Place"/>
+
     <rdfs:label xml:lang="it">Tipo di decorazione</rdfs:label>
     <rdfs:label xml:lang="en">Decoration type</rdfs:label>
-	<rdfs:range rdf:resource="http://ontologies.muruca.org/demo3#Artistic_medium"/>
-	<rdfs:range rdf:resource="http://ontologies.muruca.org/demo3#Style_of_art"/>
   </rdf:Property>
   <rdf:Property rdf:about="http://ontologies.muruca.org/demo3#located_in">
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -198,39 +188,29 @@
     <rdfs:label xml:lang="en">Son of</rdfs:label>
   </rdf:Property>
   <rdf:Property rdf:about="http://ontologies.muruca.org/demo3#has_built">
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
     <rdfs:label xml:lang="it">ha costruito</rdfs:label>
     <rdfs:label xml:lang="en">has built</rdfs:label>
-	<rdfs:range rdf:resource="http://ontologies.muruca.org/demo3#Sanctuary"/>
-	<rdfs:range rdf:resource="http://ontologies.muruca.org/demo3#Place"/>
     <rdfs:subPropertyOf rdf:resource="http://ontologies.muruca.org/demo3#author_of"/>
   </rdf:Property>
   <rdf:Property rdf:about="http://ontologies.muruca.org/demo3#following_empire">
-    <rdfs:domain rdf:resource="http://ontologies.muruca.org/demo3#Empire"/>
     <rdfs:label xml:lang="it">Impero successivo</rdfs:label>
     <rdfs:label xml:lang="en">Following empire</rdfs:label>
-    <rdfs:range rdf:resource="http://ontologies.muruca.org/demo3#Empire"/>
   </rdf:Property>
   <rdf:Property rdf:about="http://ontologies.muruca.org/demo3#inverse_of_depiction_25">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
   </rdf:Property>
   <rdf:Property rdf:about="http://ontologies.muruca.org/demo3#epoch">
-    <rdfs:range rdf:resource="http://ontologies.muruca.org/demo3#Period"/>
     <rdfs:label xml:lang="it">Periodo</rdfs:label>
     <rdfs:label xml:lang="en">Epoch</rdfs:label>
   </rdf:Property>
   <rdf:Property rdf:about="http://ontologies.muruca.org/demo3#ruled_by">
-    <rdfs:domain rdf:resource="http://ontologies.muruca.org/demo3#Empire"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <rdfs:label xml:lang="it">Retto da</rdfs:label>
     <rdfs:label xml:lang="en">Ruled by</rdfs:label>
   </rdf:Property>
   <rdf:Property rdf:about="http://ontologies.muruca.org/demo3#religious_event">
     <rdfs:label xml:lang="en">Religious event</rdfs:label>
     <rdfs:label xml:lang="it">Evento religioso</rdfs:label>
-    <rdfs:domain rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
-    <rdfs:range rdf:resource="http://ontologies.muruca.org/demo3#Religious_event"/>
   </rdf:Property>
   <rdf:Property rdf:about="http://ontologies.muruca.org/demo3#deathplace">
     <rdfs:label xml:lang="it">Luogo di morte</rdfs:label>
@@ -249,10 +229,8 @@
   </rdf:Property>
   <rdf:Property rdf:about="http://purl.org/dc/terms/creator"/>
   <rdf:Property rdf:about="http://ontologies.muruca.org/demo3#birth_date">
-    <rdfs:domain rdf:resource="http://ontologies.muruca.org/demo3#Person"/>
   </rdf:Property>
   <rdf:Property rdf:about="http://ontologies.muruca.org/demo3#death_date">
-    <rdfs:domain rdf:resource="http://ontologies.muruca.org/demo3#Person"/>
   </rdf:Property>
   <rdf:Property rdf:about="http://ontologies.muruca.org/demo3#finished_in">
     <rdfs:label xml:lang="en">Finished in</rdfs:label>
@@ -268,6 +246,9 @@
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Caliph</rdfs:comment>
   </rdf:Description>
+  <rdf:Property rdf:about="http://ontologies.muruca.org/demo3#author">
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/creator"/>
+  </rdf:Property>
 </rdf:RDF>
 
 <!-- Created with Protege (with OWL Plugin 3.4.2, Build 562)  http://protege.stanford.edu -->
