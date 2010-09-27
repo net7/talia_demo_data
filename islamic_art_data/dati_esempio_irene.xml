@@ -1355,7 +1355,7 @@
 		</attribute>
 		<attribute>
 			<predicate>demo:following_empire</predicate>
-			<object>:Ummayad_Caliphate</object>
+			<object>:Umayyad_Caliphate</object>
 		</attribute>
 		<attribute>
 			<predicate>demo:capital</predicate>
